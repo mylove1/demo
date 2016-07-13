@@ -13,5 +13,6 @@ class ShunqiItem(scrapy.Item):
     # name = scrapy.Field()
     sheng = scrapy.Field()
     shi = scrapy.Field()
-    count = scrapy.Field()
     url = scrapy.Field()
+    name = scrapy.Field()
+

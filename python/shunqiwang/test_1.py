@@ -61,12 +61,21 @@ if __name__ == '__main__':
     #     print '"' + x + '",'
     with open('city_count.json', 'r') as f:
         j = json.loads(''.join(f.readlines()))
+    ttt = 0
+    for x in range(0,len(j)):
+        if j[x]["sheng"] == u"浙江":
+            print j[x]["shi"],j[x]["count"]
+            ttt += int(j[x]["count"])
+    print ttt
+
     # for x in range(0, len(j)):
     #     print j[x]["sheng"] + ' ' + j[x]["shi"] + ' ' + j[x]["count"] + ' ' + j[x]["url"]
-    ttt = 0
-    for x in range(0, len(j)):
-        ttt += int(j[x]["count"])
-    print ttt
+
+
+    # ttt = 0
+    # for x in range(0, len(j)):
+    #     ttt += int(j[x]["count"])
+    # print ttt
 
 
 
