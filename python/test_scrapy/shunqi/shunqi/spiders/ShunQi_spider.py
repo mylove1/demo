@@ -7,17 +7,22 @@ import json
 
 with open('city_count.json', 'r') as f:
     j = json.loads(''.join(f.readlines()))
-searchsheng = \
-u"浙江"
-searchcity = \
-u"丽水"
-
-for x in range(0,len(j)):
-    if j[x]["shi"] == searchcity:
-        cityurl = j[x]["url"]
-        citycount = int(j[x]["count"])
-        break
-        # citycount = 100
+# 取得{"sheng":["shi","shi2"]}样式的列表
+city_dict_list = {}
+for x in range(0, len(j)):
+    city_dict_list[j[x]["sheng"]] = []
+for x in range(0, len(j)):
+    city_dict_list[j[x]["sheng"]].append(j[x]["shi"])
+# 返回选择省份的所有地市的所有url列表
+sheng_url_list = []
+choice_sheng = u"安徽"
+for x in city_dict_list[choice_sheng]:
+    for y in range(0, len(j)):
+        if j[y]["shi"] == x:
+            cityurl = j[y]["url"]
+            citycount = int(j[y]["count"])
+            break
+    sheng_url_list.extend(cityurl + 'co/' + str(x) + '.htm' for x in xrange(1, citycount+1))
 
 
 
@@ -25,15 +30,18 @@ for x in range(0,len(j)):
 class ShunQi_spider(scrapy.Spider):
     name = "shunqi"
     allowed_domains = ["11467.com"]
-    start_urls = [cityurl + 'co/' + str(x) + '.htm' for x in xrange(1,citycount+1)]
+    start_urls = sheng_url_list
 
     def parse(self, response):
         item = ShunqiItem()
-        sheng = searchsheng
-        shi = searchcity
+        sheng = choice_sheng
+        shi = response.xpath('//div[@id="sidebox"]/div[@class="box"][2]/h4[@class="boxtitle"]/text()').extract()[0][0:-4]
         url = response.url
         name = response.xpath('//title/text()').extract()[0]
-
+        # print sheng
+        # print shi
+        # print url
+        # print name
 
 
         item['name'] = name

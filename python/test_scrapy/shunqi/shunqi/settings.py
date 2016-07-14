@@ -14,6 +14,13 @@ BOT_NAME = 'shunqi'
 SPIDER_MODULES = ['shunqi.spiders']
 NEWSPIDER_MODULE = 'shunqi.spiders'
 
+DbConfig = {
+ # db config
+ 'user': 'root',
+ 'passwd': 'dingyu',
+ 'db': 'dingyu',
+ 'host': '192.168.0.100',
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'shunqi (+http://www.yourdomain.com)'
@@ -70,9 +77,9 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, lik
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'shunqi.pipelines.SomePipeline': 300,
-# }
+ITEM_PIPELINES = {
+   'shunqi.pipelines.ShunqiPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
