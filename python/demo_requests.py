@@ -2,6 +2,16 @@
 
 import requests
 
+# [编码]
+r = requests.get("http://www.11467.com")
+print r.text.encode('latin1').decode('gbk')
+
+# [指定编码方式]
+r = requests.get("http://www.11467.com")
+r.encoding='gbk'
+print r.text
+
+
 # url = 'http://httpbin.org/get'
 # geturl = 'http://httpbin.org/headers'
 # posturl = 'http://httpbin.org/post'
@@ -41,22 +51,22 @@ import requests
 # r = requests.delete('http://httpbin.org/delete')
 # r = requests.options('http://httpbin.org/get')
 
-print('------------------------')
-r = requests.get('http://httpbin.org/ip')
-# r.url
-# r.status_code
-# r.encoding
-# r.history #返回列表
-# print r.text
-# print r.json
-print r.elapsed                 # 0:00:03.997000
-print r.elapsed.seconds         # 3
-print r.elapsed.microseconds    # 997000
-print r.elapsed.total_seconds() # 3.997
-print r.elapsed.days            # 0
-print r.elapsed.max             # 999999999 days, 23:59:59.999999
-print r.elapsed.min             # -999999999 days, 0:00:00
-print r.elapsed.resolution      # 0:00:00.000001
+# print('------------------------')
+# r = requests.get('http://httpbin.org/ip')
+# # r.url
+# # r.status_code
+# # r.encoding
+# # r.history #返回列表
+# # print r.text
+# # print r.json
+# print r.elapsed                 # 0:00:03.997000
+# print r.elapsed.seconds         # 3
+# print r.elapsed.microseconds    # 997000
+# print r.elapsed.total_seconds() # 3.997
+# print r.elapsed.days            # 0
+# print r.elapsed.max             # 999999999 days, 23:59:59.999999
+# print r.elapsed.min             # -999999999 days, 0:00:00
+# print r.elapsed.resolution      # 0:00:00.000001
 
 # print('get:', rg.status_code)
 # print(rg.url)

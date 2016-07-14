@@ -12,12 +12,18 @@ data = {
     'ABC','abc',
 }
 data = 'sdfsdfsdf'
+
+
+
+
+
+
 # # request = urllib2.Request(url, headers=headers)
 # request = urllib2.Request(url)
 # # req = urllib2.
 # request.add_data(data)
 # # request.add_header(headers)
-html = urllib2.urlopen(url, data=data)
-print html.read()
-print request.port
-print dir(request)
+# html = urllib2.urlopen(url, data=data)
+# print html.read()
+# print request.port
+# print dir(request)

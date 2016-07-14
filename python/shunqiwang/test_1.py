@@ -84,7 +84,7 @@ if __name__ == '__main__':
 # 取得一个省各个地市的名称和企业数，以及总数
     ttt = 0
     for x in range(0,len(j)):
-        if j[x]["sheng"] == u"福建":
+        if j[x]["sheng"] == u"黑龙江":
             print j[x]["shi"],j[x]["count"]
             ttt += int(j[x]["count"])
     print ttt
