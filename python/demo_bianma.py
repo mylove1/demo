@@ -26,7 +26,7 @@ url='http://www.11467.com'
 # # 在requests下：解决方法
 r = requests.get(url)
 print r.encoding
-r.encoding='gbk'
+r.encoding = 'gbk'
 print r.text
 # print type(r.text)
 # print r.text.encode('latin1').decode('gbk')

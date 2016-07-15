@@ -61,12 +61,23 @@ if __name__ == '__main__':
     #     print '"' + x + '",'
     with open('city_count.json', 'r') as f:
         j = json.loads(''.join(f.readlines()))
-# # 取得{"sheng":["shi","shi2"]}样式的列表
-#     city_dict_list = {}
-#     for x in range(0, len(j)):
-#         city_dict_list[j[x]["sheng"]] = []
-#     for x in range(0, len(j)):
-#         city_dict_list[j[x]["sheng"]].append(j[x]["shi"])
+# 取得{"sheng":["shi","shi2"]}样式的列表
+    city_dict_list = {}
+    for x in range(0, len(j)):
+        city_dict_list[j[x]["sheng"]] = []
+    for x in range(0, len(j)):
+        city_dict_list[j[x]["sheng"]].append(j[x]["shi"])
+
+# # 打印省市列表
+#     print "{"
+#     for x in city_dict_list:
+#         print '"' + x + '" : ["' + '", "'.join(city_dict_list[x]) + '"' + '],'
+#     print "}"
+
+
+# # 打印省列表
+#     print ''.join(city_dict_list.keys())
+
 # # 返回选择省份的所有地市的所有url列表
 #     sheng_url_list = []
 #     choice_sheng = u"浙江"
@@ -84,7 +95,7 @@ if __name__ == '__main__':
 # 取得一个省各个地市的名称和企业数，以及总数
     ttt = 0
     for x in range(0,len(j)):
-        if j[x]["sheng"] == u"黑龙江":
+        if j[x]["sheng"] == u"广东":
             print j[x]["shi"],j[x]["count"]
             ttt += int(j[x]["count"])
     print ttt

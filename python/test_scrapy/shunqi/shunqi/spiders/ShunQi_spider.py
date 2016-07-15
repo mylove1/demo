@@ -15,7 +15,7 @@ for x in range(0, len(j)):
     city_dict_list[j[x]["sheng"]].append(j[x]["shi"])
 # 返回选择省份的所有地市的所有url列表
 sheng_url_list = []
-choice_sheng = u"山西"
+choice_sheng = u"湖南"
 for x in city_dict_list[choice_sheng]:
     for y in range(0, len(j)):
         if j[y]["shi"] == x:
