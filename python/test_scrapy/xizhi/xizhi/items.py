@@ -25,4 +25,5 @@ class XizhiItem(scrapy.Item):
     dengjijiguan = scrapy.Field()
     dizhi = scrapy.Field()
     fanwei = scrapy.Field()
+    xizhiurl = scrapy.Field()
 

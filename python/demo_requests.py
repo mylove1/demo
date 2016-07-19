@@ -27,8 +27,16 @@ print r.text
 # s = requests.Session()
 # s.get('http://httpbin.org/cookies/set/sessioncookies/456123')
 # r = s.get("http://httpbin.org/cookies")
+# r = s.post(loginURL, data=postData)
+
+# jsonStr = r.content.decode('gbk')
+# info = json.loads(jsonStr)
+
 # print(r.text)
 # print(r.request)
+
+# cookie = s.cookies.get_dict()
+
 
 # cookies = dict(cookies_are='working')
 # files = {'file': open('report.xls', 'rb')}

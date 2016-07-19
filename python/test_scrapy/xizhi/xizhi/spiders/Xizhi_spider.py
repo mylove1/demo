@@ -1,10 +1,13 @@
 # coding=utf-8
+import scrapy
 from xizhi.items import XizhiItem
+import MySQLdb
 #from scrapy.contrib.spiders import CrawlSpider, Rule
 #from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.spider import CrawlSpider, Rule
 from scrapy.linkextractor import LinkExtractor
 from scrapy.linkextractors.sgml import SgmlLinkExtractor
+from xizhi.settings import DbConfig
 
 
 class Xizhi_Spider(CrawlSpider):
