@@ -2,7 +2,7 @@
 from lxml import etree
 import requests
 
-a = requests.get('http://www.11467.com/langfang/co/67329.htm').text
+# r = requests.get('http://www.xizhi.com/search?wd=上海快大生物工程在在在要一中')
 # a = '''<!DOCTYPE html>
 # <html lang="zh-CN">
 # <head>
@@ -720,8 +720,12 @@ a = requests.get('http://www.11467.com/langfang/co/67329.htm').text
 # </div>
 # </body>
 # </html>'''
+# r.encoding = 'utf8'
+r = requests.get('http://httpbin.org/ip')
+a = r.text
 tree = etree.HTML(a)
-print tree.xpath('//title/text()')[0]
+print a
+# print tree.xpath('//h2[@class="result-tit fl"]/span/text()')[0]
 
 
 # tree.xpath("//h3/a/@href")
