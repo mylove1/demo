@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'hnqyxy.spiders'
 #USER_AGENT = 'hnqyxy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -30,7 +30,7 @@ DbConfig = {
  'user': 'root',
  'passwd': 'dingyu',
  'db': 'dingyu',
- 'host': 'localhost',
+ 'host': '192.168.0.102',
 }
 
 # end of MySQL database configure setting
@@ -75,9 +75,9 @@ DbConfig = {
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'hnqyxy.pipelines.HnqyxyPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'hnqyxy.pipelines.HnqyxyPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
