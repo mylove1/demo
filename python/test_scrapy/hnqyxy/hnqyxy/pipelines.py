@@ -26,10 +26,11 @@ class HnqyxyPipeline(object):
         try:
             print "charu1"
             self.cursor.execute(
-                """INSERT IGNORE INTO hnqyxyurl (link, numb)
-                VALUES (%s, %s)""",
+                """INSERT IGNORE INTO t_hnxy (t_hnxy_name, t_hnxy_url, t_hnxy_numb)
+                VALUES (%s, %s, %s)""",
                 (
-                    item['link'],
+                    item['name'],
+                    item['url'],
                     item['numb']
                 )
             )

@@ -11,5 +11,6 @@ import scrapy
 class HnqyxyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    link = scrapy.Field()
+    url = scrapy.Field()
+    name = scrapy.Field()
     numb = scrapy.Field()

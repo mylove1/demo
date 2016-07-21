@@ -6,19 +6,20 @@ from hnqyxy.items import HnqyxyItem
 
 class HnqyxySpider(scrapy.Spider):
     name = "hnqyxy"
-    start_urls = [("http://222.143.24.157/exceptionInfoSelect.jspx?pageNo="+str(i)) for i in xrange(1,10)]
+    start_urls = [("http://222.143.24.157/exceptionInfoSelect.jspx?pageNo="+str(i)) for i in xrange(1,40843)]
 
     def parse(self, response):
         txt = response.text.replace('\n', ' ')
-        re_a = re.compile('''businessPublicity.*?id=(.*?)&sourceType.*?"tb-a2">(.*?)&nbsp''')
+        re_a = re.compile('''businessPublicity.*?id=(.*?)&sourceType.*?et=_blank>(.*?)</a>.*?"tb-a2">(.*?)&nbsp''')
         items = []
         for i in re_a.findall(txt):
             item = HnqyxyItem()
             if ' ' in i:
                 continue
             else:
-                item['link'] = i[0]
-                item['numb'] = i[1]
+                item['url'] = 'http://222.143.24.157/bussinessPublicity.jspx?id=' + i[0].strip() + '&sourceType=1'
+                item['name'] = i[1].strip()
+                item['numb'] = i[2].strip()
                 items.append(item)
         return items
 
