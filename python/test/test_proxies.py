@@ -2,9 +2,16 @@
 import requests
 
 url = "http://httpbin.org/ip"
+url = 'http://wenshu.court.gov.cn/List/ListContent'
 # url = "http://www.baidu.com"
 print 'a'
-
+data = {
+    'Param': '上传日期:2016-07-22,案件类型:刑事案件',
+    'Index': '1',
+    'Page': '5',
+    'Order': '法院层级',
+    'Direction': 'asc',
+}
 proxies = {
     # 'http': '36.250.69.4:80',
     # 'http': '58.19.222.139:3128',
@@ -15,10 +22,11 @@ proxies = {
     # 'http': '158.181.145.219:3128',
     # 'http': '163.125.195.45:9999',
     # 'http': '62.195.69.35:80',
-    'http': '46.129.14.37:80'
-    }
-r = requests.get(url, timeout=10, proxies=proxies)
-print r.text
+    # 'http': '46.129.14.37:80'
+    # 'http': '120.52.73.30:80'
+}
+r = requests.post(url, timeout=3, data=data, proxies=proxies)
+print len(r.text)
 #
 # def try_speed(url):
 #     try:
