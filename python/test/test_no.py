@@ -5,5 +5,11 @@
 # print time.ctime(a)
 # print time.localtime(a)
 # print time.gmtime(a)
-for x,y in enumerate('asdf'):
-    print x,y
+# for x,y in enumerate('asdf'):
+#     print x,y
+
+a = []
+d = {}
+a.append(d)
+a.append(d)
+print a

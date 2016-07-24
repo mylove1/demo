@@ -30,3 +30,6 @@ r.encoding = 'gbk'
 print r.text
 # print type(r.text)
 # print r.text.encode('latin1').decode('gbk')
+
+# 一些编码解码的例子：
+# addr = row[4].decode("cp936").encode("utf-8")

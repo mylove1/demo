@@ -1,7 +1,7 @@
 # coding=utf-8
 import requests
 import re
-import MySQLdb
+# import MySQLdb
 import time
 
 
@@ -43,15 +43,19 @@ if __name__ == '__main__':
     }
 
     for ind in xrange(1, index):
+        print "start sleep"
+        # time.sleep(1)
+        print "sleep stop"
         print ind
         # data['Index'] = str(ind)
         # try:
-        r = requests.post(url, timeout=10, headers=headers, data=data, proxies=proxies)
+        r = requests.post(url, headers=headers, data=data)
         text = r.text
+
         if (len(text))<100:
             print text
-            if (len(text)) == 8:
-                proxies['http'] = '27.151.220.15:8888'
+            # if (len(text)) == 8:
+            #     proxies['http'] = '27.151.220.15:8888'
         # text = r.text[2:-3]
         # print text
         # dell = [
