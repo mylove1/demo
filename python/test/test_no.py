@@ -8,8 +8,7 @@
 # for x,y in enumerate('asdf'):
 #     print x,y
 
-a = []
-d = {}
-a.append(d)
-a.append(d)
+a = ['sdf', 'oijo']
+b = [3, 4]
+print a.append(b)
 print a

@@ -2,7 +2,7 @@
 import urlparse
 
 base_url = "http://www.zhihu.com"
-long_url = '/index.php?username=guol'
+long_url = 'http://www.baidu.com/index.php?username=guol'
 
 
 
@@ -11,5 +11,5 @@ print(url)
 # long_url = urlparse.urlunparse(scheme='ftp', netloc='www.baidu.com', path='/index.php', params='', query='username=guol', fragment='')
 # print long_url
 
-url = urlparse.urljoin(long_url, base_url)
+url = urlparse.urljoin('http://222.143.24.157/businessPublicity.jspx','?id=3')
 print url

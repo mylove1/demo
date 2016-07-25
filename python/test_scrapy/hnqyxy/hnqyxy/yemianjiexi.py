@@ -4,20 +4,21 @@ import re
 import urlparse
 import threading
 
+
 url = 'http://222.143.24.157/businessPublicity.jspx?id=3839F22FF280D402E053050A080A0715&sourceType=1'
 url = 'http://222.143.24.157/enterprisePublicity.jspx?id=33D155B553765FA4E053050A080AED3E'
-url = 'http://222.143.24.157/enterprisePublicity.jspx?id=33D1559F7E785FA4E053050A080AED3E'
+url = '?id=33D1559F7E785FA4E053050A080AED3E'
 def rerule_text(re_rule, text):
     return ''.join(re.findall(re_rule, text))
 
 
 class XinYong(object):
     def __init__(self, url):
-        self.url = url
         self.data = {}
+        self.gongshangurl = urlparse.urljoin('http://222.143.24.157/businessPublicity.jspx', 'url')
+        self.qiyegongshiurl = urlparse.urljoin('http://222.143.24.157/enterprisePublicity.jspx', 'url')
         self.gongshangtext = self.get_html(self.url)
-        self.qiyegongshitext = self.get_html(self.url)
-        print self.text
+        self.qiyegongshitext = self.get_html(self.qiyegongshiurl)
         self.jibenxinxi = self.re_rule_text(
                 '<divid="jibenxinxi"(.*?)<divid="beian"', self.gongshangtext)
         self.beianxinxi = self.re_rule_text(
@@ -195,10 +196,3 @@ if __name__ == "__main__":
     # for x in l_yichang:
     #     print '-----------'
     #     print x
-
-
-
-
-
-
-

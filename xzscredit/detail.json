@@ -1,0 +1,219 @@
+{
+    "state": "ok",
+    "message": "",
+    // 数据
+    "data": {
+        //基本信息
+        "baseinfo": {
+            //ID
+            "id": 25696030,
+            //企业名称
+            "name": "华融普银投资基金（北京）有限公司",
+            //行业
+            "industry": "商务服务业",
+            //LOGO
+            "logo": "",
+            //信用代码
+            "creditCode": "91330000253924826D",
+            //组织机构代码
+            "orgNumber": "053573275",
+            //工商注册号
+            "regNumber": "110000015261359",
+            //注册时间
+            "estiblishTime": 1348156800000,
+            //状态
+            "status": "开业",
+            //企业类型
+            "companyOrgType": "其他有限责任公司",
+            //成立日期
+            "starttime": ""
+            //法人
+            "faren": "王捷",
+            //经营期限自
+            "fromTime": 1348156800000,
+            //经营期限至
+            "toTime": 1979222400000,
+            //经营期限
+            "operatingTime":"",
+            //注册资本
+            "zhuceziben": "50000 万元 人民币",
+            //发照日期
+            //核准日期
+            "approvedTime": 4070880000000,
+            //登记机关
+            "dengjijiguan": "北京市工商行政管理局",
+            //企业地址
+            "dizhi":""
+            //注册地址
+            "regLocation": "北京市朝阳区呼家楼京广中心1号楼35层01房间-10房间、14房间",
+            //电话
+            "telephone": "0571-85022088",
+            //经营范围
+            "jingyingfanwei": "非证券业务的投资、投资管理、咨询。（不得从事下列业务：1、发放贷款；2、公开交易证券类投资或金融衍生品交易；3、以公开方式募集资金；4、对除被投资企业以外的企业提供担保。）（下期出资时间为2014年09月20日）",
+            //邮箱
+            "email": "sophy.ly@alibaba-inc.com",
+            //省
+            "sheng": "浙江",
+            //市
+            "shi": "杭州市",
+
+            //更新时间
+            "updatetime": 1469070500865,
+            "type": 1,
+            "categoryScore": 8795,
+            //抓取时间
+            "crawledtime": 1469070500000,
+
+            "percentileScore": 9222,
+            //是否有用
+            "allCount": {
+                "branchCount": 0,
+                "investCount": 47,
+                "comAbnoInfo": 2,
+                "companyBidCount": 0,
+                "copyrightRegCount": 0,
+                "empCount": 0,
+                "investorCount": 2,
+                "staffCount": 3,
+                "comChanInfoCount": 5,
+                "annuRepYear": 0,
+                "ComAbnoInfoCount": 2,
+                "patentCount": 0,
+                "lawSuitCount": 2,
+                "bondCount": 0,
+                "tmCount": 1
+            },
+
+            //核准机构
+            "orgApprovedInstitute": "北京市质量技术监督局",
+
+            //法人ID
+            "legalPersonId": 2071300033,
+            "sourceFlag": "http://qyxy.baic.gov.cn/",
+            "actualCapital": "10000 万元 人民币",
+            "flag": 1,
+
+            //地区代码
+            "base": "bj",
+            "companyType": 201, 
+            "companyId": 529405 
+        },
+        //股东信息
+        "gudonglist": [
+            {
+                "id": 24342077,
+                "amount": 0,
+                "name": "中房能科（北京）投资基金管理有限公司",
+                "type": 1
+            },
+            {
+                "id": 23452891,
+                "amount": 0,
+                "name": "中房联合集团能源科技有限公司",
+                "type": 1
+            }
+        ],
+        //向外投资
+        "investList": [
+            {
+                "id": 279118381,
+                "amount": 0,
+                "name": "上海锦冉投资管理中心",
+                "type": 1
+            },
+            {
+                "id": 659378684,
+                "amount": 0,
+                "name": "上海上川投资管理中心",
+                "type": 1
+            },
+        ],
+        //任职人员
+        "staffList": [
+            {
+                "id": 2071300033,
+                "name": "王捷",
+                "typeJoin": [
+                    "执行董事"
+                ],
+                "type": 2
+            },
+            {
+                "id": 2286251732,
+                "name": "高满昌",
+                "typeJoin": [
+                    "监事"
+                ],
+                "type": 2
+            },
+        ],
+        //分支机构
+        "branchList": [],
+        //商标信息
+        "tmList": [
+            {
+                "name": "图形",
+                "url": "http://tm-image.tianyancha.com/tm/563e2da0f4ba2be10f9055aa4afbac79.jpg"
+            }
+        ],
+        //诉讼案件
+        "lawSuitList": [
+            {
+                "title": "北京京广中心有限公司与华融普银投资基金（北京）有限公司房屋租赁合同纠纷一审民事判决书",
+                "submittime": "1441900800000",
+                "court": "北京市朝阳区人民法院",
+                "uuid": "af0c8ce4865f439dbc92a01d010e1029",
+                "doctype": "民事判决书",
+                "url": "http://wenshu.court.gov.cn/content/content?DocID=5e78223a-eec8-42c5-b487-87e959346e48",
+                "caseno": "（2014）朝民初字第33577号"
+            },
+            {
+                "title": "许文评与华融普银投资基金（北京）有限公司、杨红毛管辖裁定书",
+                "submittime": "1409500800000",
+                "court": "福建省高级人民法院",
+                "uuid": "0e3502671cb711e6b554008cfae40dc0",
+                "doctype": "民事裁定书",
+                "url": "http://wenshu.court.gov.cn/content/content?DocID=b8ac2c14-bd59-4113-9aad-ac7b9d0b497f",
+                "caseno": "（2014）闽民终字第945号"
+            }
+        ],
+        //变更记录
+        "biangenglist": [
+            {
+                "changeItem": "法定代表人",
+                "contentBefore": "魏薇",
+                "contentAfter": "王捷",
+                "changeTime": "2013-09-05"
+            },
+            {
+                "changeItem": "董事（理事）、经理、监事",
+                "contentBefore": "（注：标有*标志的为法定代表人）1 魏薇* 执行董事2 蒋权生 经理3 王捷 监事",
+                "contentAfter": "（注：标有*标志的为法定代表人）1 王捷* 执行董事2 蒋权生 经理3 高满昌 监事",
+                "changeTime": "2013-09-05"
+            },
+        ],
+        //经营异常信息
+        "comAbnoInfoList": [
+            {
+                "putReason": "未按规定期限公示年度报告",
+                "putDate": "2016-07-05",
+                "putDepartment": "北京市工商行政管理局",
+                "removeReason": "— —",
+                "removeDate": "",
+                "removeDepartment": "北京市工商行政管理局"
+            },
+            {
+                "putReason": "未按规定期限公示年度报告",
+                "putDate": "2015-07-07",
+                "putDepartment": "北京市工商行政管理局",
+                "removeReason": "— —",
+                "removeDate": "",
+                "removeDepartment": "北京市工商行政管理局"
+            }
+        ],
+        //企业年报
+        "annuRepYearList": [],
+        //诉讼数量
+        "lawSuitTotal": 2
+    }
+}
