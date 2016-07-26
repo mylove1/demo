@@ -38,9 +38,9 @@ if __name__ == '__main__':
 
     url = 'http://wenshu.court.gov.cn/List/ListContent'
     data = {
-        'Param': '上传日期:2016-07-22,案件类型:刑事案件',
+        'Param': '上传日期:2016-07-24 TO 2016-7-25',# ,案件类型:刑事案件',
         'Index': '1',
-        'Page': '5',
+        'Page': '20',
         'Order': '法院层级',
         'Direction': 'asc',
     }
@@ -50,23 +50,24 @@ if __name__ == '__main__':
         # time.sleep(1)
         print "sleep stop"
         print ind
-        # data['Index'] = str(ind)
+        data['Index'] = str(ind)
         # try:
         r = requests.post(url, headers=headers, data=data)
         text = r.text
+        print text
 
         if (len(text))<100:
             print text
-            if (len(text)) == 8:
-                image = requests.get('http://wenshu.court.gov.cn/User/ValidateCode/8259').content
-                with open('jpg.jpg', 'wb') as imag:
-                    imag.write(image)
-                image = Image.open('jpg.jpg')
-                code = pytesseract.image_to_string(image)
-                print code
-                codedata = {'ValidateCode': code}
-                a = requests.post('http://wenshu.court.gov.cn/Content/CheckVisitCode', headers=headers, data=codedata)
-                print 'ok'
+            # if (len(text)) == 8:
+            #     image = requests.get('http://wenshu.court.gov.cn/User/ValidateCode/8259').content
+            #     with open('jpg.jpg', 'wb') as imag:
+            #         imag.write(image)
+            #     image = Image.open('jpg.jpg')
+            #     code = pytesseract.image_to_string(image)
+            #     print code
+            #     codedata = {'ValidateCode': code}
+            #     a = requests.post('http://wenshu.court.gov.cn/Content/CheckVisitCode', headers=headers, data=codedata)
+            #     print 'ok'
         # text = r.text[2:-3]
         # print text
         # dell = [

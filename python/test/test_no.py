@@ -1,5 +1,5 @@
 # coding:utf-8
-# import time
+import time
 # a = 1348156800.00
 #
 # print time.ctime(a)
@@ -7,8 +7,15 @@
 # print time.gmtime(a)
 # for x,y in enumerate('asdf'):
 #     print x,y
+#
+# a = '2013-06-01'
+# s = time.mktime(time.strptime(a, "%Y-%m-%d"))
+# print s
+# tup_birth = time.localtime(s)
+# format_birth = time.strftime("%Y-%m-%d", tup_birth)
+# print format_birth
 
-a = ['sdf', 'oijo']
-b = [3, 4]
-print a.append(b)
-print a
+# a = 425
+# print a%20
+for x in range(2,2):
+    print x
