@@ -22,8 +22,8 @@ proxies = {
     # 'http': '158.181.145.219:3128',
     # 'http': '163.125.195.45:9999',
     # 'http': '62.195.69.35:80',
-    # 'http': '46.129.14.37:80'
-    # 'http': '120.52.73.30:80'
+    'http': '120.52.73.30:80',
+    'http': '204.29.120.89:120'
 }
 r = requests.post(url, timeout=3, data=data, proxies=proxies)
 print len(r.text)

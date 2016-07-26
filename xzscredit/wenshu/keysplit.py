@@ -24,10 +24,15 @@ import requests
 # print '--------------------------------'
 
 
+'''
+get the html then return like this
+
+'''
 
 def url_list(url, data):
     req = requests.post(url=url, data=data)
     html = req.text[1:-1].replace('\\', '')
+    print html
     print "Has dowit"
     return list(eval(html))
 
@@ -111,12 +116,28 @@ def select_list(url, data, hist):
             select_list(url, this_data, this_hist)
             # print 'wanl'
 
+# print the list
+def l_gegecount(l):
+    for x in l:
+        if x["Key"] == '':
+            continue
+        print x["Key"], x["Value"]
+        tota_y = 0
+        for y in x["Child"]:
+
+            if y["Key"] == '':
+                continue
+            print y["Key"], '\t', y["Value"]
+            tota_y += int(y["Value"])
+        print '-------------------', tota_y, '--'
 
 if __name__ == "__main__":
     link = []
     url = 'http://wenshu.court.gov.cn/List/TreeContent'
     data={"Param": ""}
-    hist = ["关键词"]
-    select_list(url, data=data, hist=hist)
-    print 'link:\t\t', link
+    l =  url_list(url, {"Param": "上传日期:2015-01-31 TO 2015-02-01"})
+    l_gegecount(l)
+    # hist = ["关键词"]
+    # select_list(url, data=data, hist=hist)
+    # print 'link:\t\t', link
 
