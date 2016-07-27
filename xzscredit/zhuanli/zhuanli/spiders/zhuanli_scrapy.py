@@ -1,38 +1,61 @@
 # -*- coding:utf-8 -*-
 import scrapy
 import re
+from selenium import webdriver
 # from zhuanli.urllist import urllist
-# from zhuanli.items import ZhuanliItem
+from zhuanli.items import ZhuanliItem
 from scrapy.http import Request
+from zhuanli.urllist import urllist
+
+
+
 
 class ZhuanliSpider(scrapy.Spider):
+    def __init__(self):
+        self.browser = webdriver.PhantomJS(executable_path=r"D:\PhantomJS\phantomjs-2.1.1-windows\bin\phantomjs.exe")
     name = "zhuanli"
     # start_urls = urllist
-    start_urls = ['http://cpquery.sipo.gov.cn//txnQueryOrdinaryPatents.do?select-key%3Ashenqingh=&select-key%3Azhuanlimc=&select-key%3Ashenqingrxm=%E5%8D%8E%E4%B8%BA%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&select-key%3Azhuanlilx=&select-key%3Ashenqingr_from=&select-key%3Ashenqingr_to=&attribute-node:record_start-row=11&attribute-node:record_page-row=10&',
-                  'http://cpquery.sipo.gov.cn//txnQueryOrdinaryPatents.do?select-key%3Ashenqingh=&select-key%3Azhuanlimc=&select-key%3Ashenqingrxm=%E5%8D%8E%E4%B8%BA%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&select-key%3Azhuanlilx=&select-key%3Ashenqingr_from=&select-key%3Ashenqingr_to=&attribute-node:record_start-row=41&attribute-node:record_page-row=10&',
-                  ]
+    start_urls = urllist
     def parse(self, response):
         if 'empty_date' not in response.text:
             text = ''.join(response.text.split())
-            print text
             pages = re.findall("data-totalpage='(.*?)'data-currentpage='(.*?)'", text)
             totalpage = int(pages[0][0])
-            currentpage = int(pages[0][1])
-            if totalpage > currentpage:
-                start_row = 'start-row' + str(currentpage * 10 - 9)
-                next_row = 'start-row' + str(currentpage * 10 + 1)
-                url = response.url.replace('start_row', 'next_row')
-                print 'the url is ', url
-                yield Request(url=url, callback=self.parse)
-            print '---------------', totalpage, '-----------------'
-            print '---------------', currentpage, '-----------------'
-            print '---------------', pages, '-----------------'
-            print '\n\n\n',
-            print response.url
-            print '\n\n\n'
+            url = str(response.url)
+            for page in range(1, totalpage+1):
+                print '------------------------------------------------------------------------------------------------------------------', page
+                next_row = 'start-row=' + str(page * 100 - 99)
+                next_url = url.replace('start-row=1', next_row)
+                return self.phantom(next_url)
+
+    def phantom(self, url):
+        self.browser.get(url)
+        # time.sleep(3)
+        html = self.browser.execute_script("return document.documentElement.outerHTML")
+        html = ''.join(html.split()).encode('utf-8')
+        datas = re.findall('title="发明专利">(.*?)</span>.*?record:zhuanlimc"title="(.*?)">.*?record:shenqingrxm"title="(.*?)">.*?record:shenqingr"class="text_ellipsis"title="(.*?)">.*?record:zhufenlh"title="(.*?)">', html)
+        items = []
+        for x in datas:
+            item = ZhuanliItem()
+            item["company"] = x[2]
+            item["number"] = x[4]
+            item["type"] = x[0]
+            item["name"] = x[1]
+            item["date"] = x[3]
+            items.append(item)
+        return items
 
 
-            print '----------------------------------\n--------------------------'
+            #     print 'this url is \t', response.url
+            #     url = str(response.url)
+            #     url = url.replace(start_row, next_row)
+            #     print 'the next url is ', url
+            #     yield Request(url=url, callback=self.parse)
+            # print '---------------', totalpage, '-----------------'
+            # print '---------------', currentpage, '-----------------'
+            # print '---------------', pages, '-----------------'
+            # print '\n\n\n'
+            # print '----------------------------------',len(text),'--------------------------'
 
 
 

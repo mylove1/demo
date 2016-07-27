@@ -30,7 +30,7 @@ DbConfig = {
  'user': 'root',
  'passwd': 'dingyu',
  'db': 'dingyu',
- 'host': '192.168.0.102',
+ 'host': '192.168.0.100',
 }
 
 # end of MySQL database configure setting

@@ -3,6 +3,7 @@ import scrapy
 from chongqing.items import ChongqingItem
 from scrapy.http import Request
 
+
 def dict_jyyc_url_list(dic):
     jyyc_url_list = []
     for x in dic["jyyclist"]:
