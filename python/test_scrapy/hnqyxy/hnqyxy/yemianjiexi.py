@@ -5,9 +5,14 @@ import urlparse
 import threading
 
 
-url = 'http://222.143.24.157/businessPublicity.jspx?id=3839F22FF280D402E053050A080A0715&sourceType=1'
-url = 'http://222.143.24.157/enterprisePublicity.jspx?id=33D155B553765FA4E053050A080AED3E'
-url = '?id=33D1559F7E785FA4E053050A080AED3E'
+# url = 'http://222.143.24.157/businessPublicity.jspx?id=3839F22FF280D402E053050A080A0715&sourceType=1'
+#
+
+# url = 'http://222.143.24.157/enterprisePublicity.jspx?id=33D155B553765FA4E053050A080AED3E'
+# url = '?id=33D1559F7E785FA4E053050A080AED3E'
+
+
+
 def rerule_text(re_rule, text):
     return ''.join(re.findall(re_rule, text))
 
@@ -15,9 +20,9 @@ def rerule_text(re_rule, text):
 class XinYong(object):
     def __init__(self, url):
         self.data = {}
-        self.gongshangurl = urlparse.urljoin('http://222.143.24.157/businessPublicity.jspx', 'url')
-        self.qiyegongshiurl = urlparse.urljoin('http://222.143.24.157/enterprisePublicity.jspx', 'url')
-        self.gongshangtext = self.get_html(self.url)
+        self.gongshangurl = urlparse.urljoin('http://222.143.24.157/businessPublicity.jspx', url)
+        self.qiyegongshiurl = urlparse.urljoin('http://222.143.24.157/enterprisePublicity.jspx', url)
+        self.gongshangtext = self.get_html(self.gongshangurl)
         self.qiyegongshitext = self.get_html(self.qiyegongshiurl)
         self.jibenxinxi = self.re_rule_text(
                 '<divid="jibenxinxi"(.*?)<divid="beian"', self.gongshangtext)
@@ -34,11 +39,11 @@ class XinYong(object):
         self.xingzhengchufa = self.re_rule_text(
                 '<divid="xingzhengchufa(.*?)</div><divid=', self.gongshangtext)
         self.touziren = self.re_rule_text(
-                '<divid="touziren(.*?)<scripttype=', self.text)
+                '<divid="touziren(.*?)<scripttype=', self.qiyegongshitext)
         self.xingzhengxuke = self.re_rule_text(
-                '<divid="xingzhengxuke(.*?)<divid="zhishichanquan', self.text)
+                '<divid="xingzhengxuke(.*?)<divid="zhishichanquan', self.qiyegongshitext)
         self.zhishichanquan = self.re_rule_text(
-                '<divid="zhishichanquan"(.*?)<scripttype=', self.text)
+                '<divid="zhishichanquan"(.*?)<scripttype=', self.qiyegongshitext)
 
         self.text_rule = {
             "number": [u'<thwidth="20%">注册号.*?</th><tdwidth="30%">(.*?)</td>', self.jibenxinxi],
@@ -128,6 +133,7 @@ class XinYong(object):
 
 if __name__ == "__main__":
     # [基本信息]
+
     jiexi = XinYong(url)
     print "名称\t",jiexi.xinxi("name")
     print "号码\t",jiexi.xinxi("number")

@@ -5,7 +5,9 @@ import MySQLdb
 import pymongo
 import threading
 import sys
+import time
 import setting
+import re
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -45,24 +47,25 @@ class wenshu(threading.Thread):
                         'Connection': 'keep-alive',
                     }
                     # [use proxy]
-                    # try:
-                    #     proxy = random.choice(proxylist.keys())
-                    #     print proxy
-                    #     r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
-                    #     break
-                    # except:
-                    #     try:
-                    #         print proxy, 'is bad'
-                    #         proxylist.pop(proxy)
-                    #     except:
-                    #         pass
-
-                    # [don't use proxy]
                     try:
-                        r = requests.post(self.url, headers=this_headers, data=data, timeout=7)
+                        proxy = random.choice(proxy_pool.keys())
+                        print proxy
+                        r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
                         break
                     except:
-                        continue
+                        try:
+                            print proxy, 'is bad'
+                            proxy_pool.pop(proxy)
+                        except:
+                            pass
+
+                    # [don't use proxy]
+                    # try:
+                    #     r = requests.post(self.url, headers=this_headers, data=data, timeout=7)
+                    #     break
+                    # except:
+                    #     continue
+
                 html = r.text
                 # print html
                 lonth = len(html)
@@ -183,16 +186,59 @@ class wenshu(threading.Thread):
                 print len(this_dict["wenshu"])
 
 
+def get_proxy(proxy_pool, db):
+    while True:
+        if len(proxy_pool) < 500:
+            print '^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+            print len(proxy_pool)
+            req = requests.get('http://dev.kuaidaili.com/api/getproxy/?orderid=936985472462411&num=500&b_pcchrome=1&b_pcie=1&b_pcff=1&protocol=1&method=2&an_an=1&an_ha=1&sp1=1&sp2=1&sep=2')
+            for x in req.text.split():
+                proxy_pool[x] = ''
+                db.insert({'ip': x})
+        time.sleep(20)
+
+
+def proxy():
+    global proxy_pool
+    rule = [
+        ['http://www.youdaili.net/Daili/guonei/4766.html', r'<br/>((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))):(.*?)'],
+        # ['http://www.xicidaili.com/wn/22', r'<td>((?:(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d)))\.){3}(?:25[0-5]|2[0-4]\d|((1\d{2})|([1-9]?\d))))</td><td>(.*?)</td>'],
+    ]
+
+    for rangeweb in rule:
+        thisrule = re.compile(rangeweb[1])
+        r = requests.get(rangeweb[0], headers={
+            'content-type': 'application/json',
+            'User-Agent': 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0 )',
+            })
+        text = r.text
+        text = ''.join(text.split())
+        proxy_yuan = thisrule.findall(text)
+        for every_ip in proxy_yuan:
+            proxy_pool[every_ip[0] + ':' + every_ip[1]] = ''
+
+
 if __name__ == '__main__':
     conn = pymongo.Connection('192.168.0.100', 27017)
-    db = conn.wenshu.total
-    comp_list = [
-        '朱浩斌',
-        # '华为技术有限公司',
-        # '杭州阿里巴巴广告有限公司',
-    ]
-    comp_list = get_company_list(1, 1000)
+    db = conn.test.total
+    dbip = conn.ip.proxy
+
+    comp_list = get_company_list(0, 27500)
     headers = setting.agents
+    proxy_pool = {}
+
+    # proxy()
+    # print len(proxy_pool)
+    # time.sleep(5)
+    # print len(proxy_pool)
+    # ipthread = threading.Thread(target=proxy)
+    # ipthread.start()
+    # print 'hello'
+
+    ipthread = threading.Thread(target=get_proxy, args=(proxy_pool, dbip))
+    ipthread.start()
+    # print 'hello'
+
     for x in range(10):
         thread = wenshu()
         thread.start()

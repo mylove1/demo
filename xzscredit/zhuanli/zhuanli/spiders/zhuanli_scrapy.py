@@ -26,24 +26,24 @@ class ZhuanliSpider(scrapy.Spider):
                 print '------------------------------------------------------------------------------------------------------------------', page
                 next_row = 'start-row=' + str(page * 100 - 99)
                 next_url = url.replace('start-row=1', next_row)
-                return self.phantom(next_url)
-
-    def phantom(self, url):
-        self.browser.get(url)
-        # time.sleep(3)
-        html = self.browser.execute_script("return document.documentElement.outerHTML")
-        html = ''.join(html.split()).encode('utf-8')
-        datas = re.findall('title="发明专利">(.*?)</span>.*?record:zhuanlimc"title="(.*?)">.*?record:shenqingrxm"title="(.*?)">.*?record:shenqingr"class="text_ellipsis"title="(.*?)">.*?record:zhufenlh"title="(.*?)">', html)
-        items = []
-        for x in datas:
-            item = ZhuanliItem()
-            item["company"] = x[2]
-            item["number"] = x[4]
-            item["type"] = x[0]
-            item["name"] = x[1]
-            item["date"] = x[3]
-            items.append(item)
-        return items
+    #             return self.phantom(next_url)
+    #
+    # def phantom(self, url):
+    #     self.browser.get(url)
+    #     # time.sleep(3)
+    #     html = self.browser.execute_script("return document.documentElement.outerHTML")
+    #     html = ''.join(html.split()).encode('utf-8')
+    #     datas = re.findall('title="发明专利">(.*?)</span>.*?record:zhuanlimc"title="(.*?)">.*?record:shenqingrxm"title="(.*?)">.*?record:shenqingr"class="text_ellipsis"title="(.*?)">.*?record:zhufenlh"title="(.*?)">', html)
+    #     items = []
+    #     for x in datas:
+    #         item = ZhuanliItem()
+    #         item["company"] = x[2]
+    #         item["number"] = x[4]
+    #         item["type"] = x[0]
+    #         item["name"] = x[1]
+    #         item["date"] = x[3]
+    #         items.append(item)
+    #     return items
 
 
             #     print 'this url is \t', response.url
