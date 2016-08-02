@@ -45,24 +45,22 @@ class chinaz(threading.Thread):
                 'Connection': 'keep-alive',
             }
             # [use proxy]
-            # try:
-            #     proxy = random.choice(proxy_pool.keys())
-            #     print proxy
-            #     r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
-            #     break
-            # except:
-            #     try:
-            #         print proxy, 'is bad'
-            #         proxy_pool.pop(proxy)
-            #     except:
-            #         pass
-
-            # [don't use proxy]
             try:
-                r = requests.post(self.url, headers=this_headers, data=data, timeout=7)
+                proxy = requests.get('http://192.168.0.100:8384/ip').text
+                r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
                 break
             except:
-                continue
+                try:
+                    print proxy, 'is bad'
+                except:
+                    pass
+
+            # [don't use proxy]
+            # try:
+            #     r = requests.post(self.url, headers=this_headers, data=data, timeout=7)
+            #     break
+            # except:
+            #     continue
 
         html = r.text
         return html
@@ -169,7 +167,7 @@ def proxy():
 
 if __name__ == '__main__':
     start = 1
-    stop = 1000
+    stop = 5000000
     comp_list = []
     conn = MySQLdb.connect(host='192.168.0.100', user='root', passwd='dingyu', db='dingyu', port=3306, charset="utf8")
     cursor = conn.cursor()
