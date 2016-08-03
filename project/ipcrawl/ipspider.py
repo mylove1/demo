@@ -38,7 +38,7 @@ class crawlip(threading.Thread):
     def get_html(self, url):
         this_headers = {
             'User-Agent': random.choice(headers),
-            'Referer': url,
+            'Referer': url,    
             'Connection': 'keep-alive',
         }
         r = requests.get()
