@@ -1,17 +1,18 @@
 # coding:utf-8
+import time
+import random
 import requests
 import threading
-import random
-import MySQLdb
 import config
-import pybloom
-
-
 
 
 class SearchBox(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
+
+    def get_kw(self):
+        r = requests.get('http://192.168.0.100:11111/comp')
+        return r.text
 
     def get_html(self, kw):
         while 1:
@@ -33,30 +34,28 @@ class SearchBox(threading.Thread):
         r.encoding = 'utf8'
         return r.text
 
+    def put_mess(self, mess):
+        requests.post('http://192.168.0.100:11111/post', data=mess)
+
     def run(self):
         while 1:
-            try:
-                kw = kwlist.pop(0)
-            except:
+            kw = self.get_kw()
+            print kw
+            if len(kw) >=10:
+                kw = kw[:-5]
+            if kw == '':
+                print 'Done'
                 break
-            print self.get_html()
+            html = self.get_html(kw)
+            print html
+            print '------------------', kw
+            self.put_mess({'comp': html})
 
 
+def main():
+    for x in xrange(1):
+        thread = SearchBox()
+        thread.start()
 
 if __name__ == '__main__':
-    # kwlist = []
-    # conn = MySQLdb.connect(host='192.168.0.100', user='root', passwd='dingyu', db='dingyu', port=3306, charset="utf8")
-    # cursor = conn.cursor()
-    # a = 1
-    # b = 1000000
-    # cursor.execute("select name from company_zong where id between %s and %s  ;" % (a, b))
-    # aa = cursor.fetchall()
-    # for x in aa:
-    #     kwlist.append(x)
-
-
-    # with open('C:\Users\cooper\Documents\data\comp_name.fil', 'rb') as bf:
-    #     f = pybloom.BloomFilter.fromfile(bf)
-    kwlist = ["杭州银行股份有限公司"]
-    a = SearchBox()
-    a.start()
+    main()
