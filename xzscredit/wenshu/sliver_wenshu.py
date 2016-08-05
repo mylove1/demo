@@ -1,38 +1,21 @@
-# -*- coding: utf-8 -*-
-import requests
-import random
-import MySQLdb
-import pymongo
-import threading
-import sys
+# coding:utf-8
 import time
+import random
+import requests
+import threading
 import config
-import re
-reload(sys)
-sys.setdefaultencoding('utf-8')
+import json
 
 
-def get_company_list(start, stop):
-    comp_list = []
-    conn = MySQLdb.connect(host='192.168.0.100', user='root', passwd='dingyu', db='dingyu', port=3306, charset="utf8")
-    cursor = conn.cursor()
-    cursor.execute("select name from company_zong where id between %s and %s  ;" % (start, stop))
-    aa = cursor.fetchall()
-    for x in aa:
-        comp_list.append(x[0])
-    conn.close()
-    return comp_list
-
-
-class wenshu(threading.Thread):
+class SearchBox(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
+        self.agent = config.agents
         self.url = 'http://wenshu.court.gov.cn/List/ListContent'
-        self.header = headers
 
     def get_html(self, key, page, order='裁判日期', direction='asc'):
         data = {
-            'Param': "全文检索:" + key,
+            'Param': u"全文检索:" + key,
             'Index': page,
             'Page': '20',
             'Order': order,
@@ -42,20 +25,17 @@ class wenshu(threading.Thread):
             while 1:
                 while 1:
                     this_headers = {
-                        'User-Agent': random.choice(headers),
+                        'User-Agent': random.choice(self.agent),
                         'Referer': 'http://wenshu.court.gov.cn/List/ListContent',
                         'Connection': 'keep-alive',
                     }
                     # [use proxy]
                     try:
-                        proxy = requests.get('http://192.168.0.100:8384/ip').text
-                        r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
+                        # proxy = requests.get('http://192.168.0.100:8384/ip').text
+                        r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': '119.6.136.122:83'}, timeout=7)
                         break
                     except:
-                        try:
-                            print proxy, 'is bad'
-                        except:
-                            pass
+                        pass
 
 
                 html = r.text
@@ -136,7 +116,6 @@ class wenshu(threading.Thread):
             if jilu != {}:
                 dict["wenshu"].append(jilu)
 
-
     def count_page(self, num):
         pages = num /20
         if num % 20 > 0:
@@ -145,13 +124,21 @@ class wenshu(threading.Thread):
             pages = 25
         return pages
 
+    def put_mess(self, mess):
+        requests.post('http://192.168.0.100:12315/post', data=mess)
+
+    def get_kw(self):
+        r = requests.get('http://192.168.0.100:12315/comp')
+        return r.text
+
     def run(self):
         print 'start run'
         while True:
-            print '-  -            -   -   -  -', len(comp_list)
-            try:
-                key = comp_list.pop()
-            except:
+            key = self.get_kw()
+            # key = '上海金茂建筑装饰有限公司与孙开华'
+            print key
+            if key == '':
+                print 'Done'
                 break
             wenshulist = self.get_list(key)
             try:
@@ -174,33 +161,12 @@ class wenshu(threading.Thread):
                         print '---', key, '---', page
                         wenshulist = self.get_list(key, page)
                         self.insert_dict(this_dict, wenshulist)
-                db.insert(this_dict)
-                print len(this_dict["wenshu"])
-
-
-
-if __name__ == '__main__':
-    conn = pymongo.Connection('192.168.0.100', 27017)
-    db = conn.test.total
-    # dbip = conn.ip.proxy
-
-    comp_list = get_company_list(0, 5000000)
-    headers = setting.agents
-    # proxy_pool = {}
-
-    # proxy()
-    # print len(proxy_pool)
-    # time.sleep(5)
-    # print len(proxy_pool)
-    # ipthread = threading.Thread(target=proxy)
-    # ipthread.start()
-    # print 'hello'
-
-    # ipthread = threading.Thread(target=get_proxy, args=(proxy_pool, dbip))
-    # ipthread.start()
-    # print 'hello'
-
-    for x in range(20):
-        thread = wenshu()
+                this_dict = str(this_dict)
+                self.put_mess({"comp": this_dict})
+def main():
+    for x in xrange(10):
+        thread = SearchBox()
         thread.start()
 
+if __name__ == '__main__':
+    main()

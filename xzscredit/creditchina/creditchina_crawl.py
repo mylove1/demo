@@ -13,20 +13,46 @@ class CreditChina(object):
         self.kw = kw
         self.data = {
             'keyword': self.kw,
-            'searchtype': 0,
-            'objectType': 2,
+            'searchtype': '0',
+            'objectType': '2',
             'areas': '',
             'creditType': '',
-            'dataType': 1,
+            'dataType': '1',
             'areaCode': '',
             'templateId': '',
-            'exact': 0,
-            'page': 1
+            'exact': '0',
+            'page': '1'
         }
         self.headers = {
             'User-Agent': random.choice(config.agents),
             'Referer': 'http://www.creditchina.gov.cn/',
             'Connection': 'keep-alive',
+        }
+
+        self.headers = {
+            'Accept': 'text / plain, * / *;
+        q = 0.01
+        Accept - Encoding:gzip, deflate
+        Accept - Language:zh - CN, zh;
+        q = 0.8
+        Connection:keep - alive
+        Content - Length:191
+        Content - Type:application / x - www - form - urlencoded;
+        charset = UTF - 8
+        Cookie:Hm_lvt_0076fef7e919d8d7b24383dc8f1c852a = 1470189660, 1470191545, 1470374349;
+        Hm_lpvt_0076fef7e919d8d7b24383dc8f1c852a = 1470374372
+        Host:www.creditchina.gov.cn
+        Origin:http: // www.creditchina.gov.cn
+        Referer:http: // www.creditchina.gov.cn / search_all
+        User - Agent:Mozilla / 5.0(Windows
+        NT
+        6.1;
+        WOW64) AppleWebKit / 537.36(KHTML, like
+        Gecko) Chrome / 50.0
+        .2661
+        .102
+        Safari / 537.36
+        X - Requested - With:XMLHttpRequest
         }
     def posthtml(self):
         url = 'http://www.creditchina.gov.cn/credit_info_search?t=' + ''.join(str('%.3f' % time.time()).split('.'))
@@ -76,9 +102,9 @@ class CreditChina(object):
     def resolve(self, html):
         pass
 
-k = '江苏华飞建设集团有限公司'
+k = '平顶山市科远网络'
 a = CreditChina(k)
-
-a.info_page()
+print a.posthtml()
+# a.info_page()
 
 

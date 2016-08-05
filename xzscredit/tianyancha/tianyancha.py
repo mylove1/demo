@@ -98,7 +98,7 @@ for x in range(1):
     url = "http://www.tianyancha.com/company/78957398"
     url = 'http://www.tianyancha.com/search/%E6%9D%AD%E5%B7%9E%E9%93%B6%E8%A1%8C%E8%82%A1?checkFrom=searchBox'
     # url = 'http://www.tianyancha.com/company/526616406'
-    url = 'http://www.tianyancha.com/company/78957398'
+    # url = 'http://www.tianyancha.com/company/78957398'
     # url = 'http://httpbin.org/headers'
 
     # headers = {
