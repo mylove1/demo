@@ -1,57 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ip_zhengli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ipspider_cn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ipspider_ip181.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ipspider_kaixin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/maiip.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/pymongo_demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/sqlite_demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/ghostdriver.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/ghostdriver.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/weshutest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/webspider/master/ipspider.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu.py" afterPath="" />
+    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="16.8.12 scala一个demo文件">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/AtomicTime$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/AtomicTime.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler$SimpleFalsifyingWebConnection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/FileIO$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/FileIO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$$anonfun$fac$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$$anonfun$printnum$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestHtmlUnit$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestHtmlUnit.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestRequest$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan$SimpleFalsifyingWebConnection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/dictionaries/cooper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_codec_commons_codec_1_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_io_commons_io_2_5_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_logging_commons_logging_1_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_cssparser_cssparser_0_9_20_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_htmlunit_2_23_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_htmlunit_core_js_2_23_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_neko_htmlunit_2_23_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_4_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpmime_4_5_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_jetty_io_9_2_18_v20160721_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_jetty_util_9_2_18_v20160721_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_api_9_2_18_v20160721_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_client_9_2_18_v20160721_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_common_9_2_18_v20160721_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_w3c_css_sac_1_3_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xalan_serializer_2_7_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xalan_xalan_2_7_2_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xerces_xercesImpl_2_11_0_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xml_apis_xml_apis_1_4_01_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules/untitled1-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules/untitled1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/plugins.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/default/untitled1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/default/untitled1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/Crewler.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/FileIO.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/Hello.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/HelloWorld.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestHtmlUnit.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestJsoup.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestRequest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestTianYan.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sbt_2.11/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sbt_2.11/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sources_2.11/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sources_2.11/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1_2.11/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1_2.11/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sbt_2.11-default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/updateClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/unmanagedJars/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/webspider/master/iptest.py" afterPath="$PROJECT_DIR$/project/webspider/master/iptest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/chinaz.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/chinaz.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/company_search.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/company_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/wenshu/config.py" afterPath="$PROJECT_DIR$/proxyip/config.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,6 +390,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -549,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470385352833</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="16.8.12 scala一个demo文件">
+      <created>1470990790344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1470990790344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -560,7 +732,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3326226" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -597,7 +769,8 @@
     <MESSAGE value="16.8.3" />
     <MESSAGE value="16.8.4，实现简单的分布式，master通过flask等待sliver请求以及post数据，收到sliver的数据后查重以及存储" />
     <MESSAGE value="16.8.4，简单的分布式，重写文书" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.8.4，简单的分布式，重写文书" />
+    <MESSAGE value="16.8.12 scala一个demo文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.8.12 scala一个demo文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -931,6 +1104,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
