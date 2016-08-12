@@ -46,7 +46,7 @@ class chinaz(threading.Thread):
             }
             # [use proxy]
             try:
-                proxy = requests.get('http://192.168.0.100:8384/ip').text
+                proxy = requests.get('http://192.168.0.20:8384/ip').text
                 r = requests.post(self.url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=7)
                 break
             except:
@@ -93,8 +93,8 @@ class chinaz(threading.Thread):
         while True:
             print '-  -            -   -   -  -', len(comp_list)
             try:
-                key = comp_list.pop(0)
-                # key = '华为技术有限公司'
+                # key = comp_list.pop(0)
+                key = '华为技术有限公司'
             except:
                 break
             html = self.get_html(key)
@@ -122,7 +122,7 @@ def get_proxy(proxy_pool, db):
     while True:
         if len(proxy_pool) < 500:
             print len(proxy_pool)
-            req = requests.get('http://192.168.0.100:8000/ip.html')
+            req = requests.get('http://192.168.0.20:8000/ip.html')
             for x in req.text.split():
                 proxy_pool[x] = ''
 

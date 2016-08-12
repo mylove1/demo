@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
-import requests
 import random
+import sys
+import threading
+
 import MySQLdb
 import pymongo
-import threading
-import sys
-import time
-import config
-import re
+import requests
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
