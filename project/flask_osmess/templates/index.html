@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>51reboot</title>
+</head>
+
+<body>
+hello
+
+<div id="container" style="height: 400px; min-width: 310px"></div>
+
+<script src='/static/jquery.js'></script>
+<script src='/static/highstock.js'></script>
+<script src='/static/exporting.js'></script>
+<script>
+    $.getJSON('/data', function (data) {
+
+        // Create the chart
+        $('#container').highcharts('StockChart', {
+        chart:{
+        events:{
+            load:function(){
+                var series = this.series[0]
+                setInterval(function(){
+                $.getJSON('/data',function(res){
+                    $.each(res,function(i,v){
+                        series.addPoint(v)
+                    })
+                })
+                },1000)
+            }
+        }
+        },
+            rangeSelector : {
+                selected : 0
+            },
+            title : {
+                text : 'AAPL Stock Price'
+            },
+            series : [{
+                name : 'AAPL',
+                data : data,
+                tooltip: {
+                    valueDecimals: 2
+                }
+            }]
+        });
+    });
+</script>
+</body>
+</html>
