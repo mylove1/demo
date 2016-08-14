@@ -58,12 +58,17 @@ class ZhuanliCrawl(threading.Thread):
             except:
                 '---------------browser 获取网页出错--------------'
 
+
     def put_mess(self, mess):
         requests.post('http://192.168.100.55:7474/post', data=mess)
+
+
 
     def get_kw(self):
         r = requests.get('http://192.168.100.55:7474/comp')
         return r.text
+
+
 
     def run(self):
         while True:
@@ -118,4 +123,5 @@ def main():
         thread.start()
 
 if __name__ == '__main__':
+    time.sleep(3600)
     main()

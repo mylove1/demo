@@ -1,14 +1,38 @@
 # coding:utf-8
-import time
-import random
 import requests
 import threading
-import pymongo
 import re
-import config
+import pymongo
+
+conn = pymongo.Connection("192.168.100.55", 27017)
+db = conn.zhejiang
+
+headers = {
+    "Host": "gsxt.zjaic.gov.cn",
+    "Referer": "http://gsxt.zjaic.gov.cn/unusualcatalog/doReadUnusualCatalogList.do",
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+}
+
+url = "http://gsxt.zjaic.gov.cn/unusualcatalog/doReadUnusualCatalogListJSON.do?_id=doReadCatalogList1471058567706"
+data = {
+    "qryParam": "",
+    "pagination.currentPage": "1",
+    "pagination.pageSize": "10",
+}
+r = requests.post(url, data, headers=headers)
+print r.text
+text = r.text
+li = re.findall('''{"catRegNo":"(.*?)","corpid":"(.*?)","catRemark":".*?","catNo":"(.*?)","canOutReaCodeName":".*?","catState":".*?","catEntName":"(.*?)","catOrgName''', text)
+for x in li:
+    pagedict = {}
+    pagedict["catRegNo"] = x[0]
+    pagedict["corpid"] = x[1]
+    pagedict["catNo"] = x[2]
+    pagedict["catEntName"] = x[3]
+    db.yichanglist.insert(pagedict)
 
 
-class CompWebCrawl(threading.Thread):
+class YichangCrawl(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
         self.agent = config.agents
@@ -117,14 +141,11 @@ class CompWebCrawl(threading.Thread):
                         pass
 
 
-if __name__ == '__main__':
-    time.sleep(3600)
-    proxypool = []
-    conn = pymongo.Connection("192.168.100.55", 27017)
-    db = conn.ip
-    for x in db.useful.find():
-        proxypool.append(x["ip"])
+def main():
+    pagelist = [x for x in xrange(18746)]
+    for x in range(5):
 
-    for x in xrange(5):
-        thread = CompWebCrawl()
-        thread.start()
+
+
+if __name__ == '__main__':
+    main()

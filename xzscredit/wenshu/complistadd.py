@@ -3,7 +3,7 @@ import threading
 import MySQLdb
 import time
 
-start_num = 6022244
+start_num = 6590964
 kwlist = []
 
 class compadd(threading.Thread):

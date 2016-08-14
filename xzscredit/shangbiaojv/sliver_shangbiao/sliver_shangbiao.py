@@ -31,12 +31,17 @@ class ShangbiaoCrawl(threading.Thread):
                 pass
         return ''.join(r.text.split())
 
+
     def put_mess(self, mess):
         requests.post('http://192.168.100.55:12121/post', data=mess)
+
+
 
     def get_kw(self):
         r = requests.get('http://192.168.100.55:12121/comp')
         return r.text
+
+
 
     def run(self):
         while True:
@@ -72,6 +77,7 @@ def main():
         thread.start()
 
 if __name__ == '__main__':
+    time.sleep(3600)
     proxypool = []
     conn = pymongo.Connection("192.168.100.55", 27017)
     db = conn.ip

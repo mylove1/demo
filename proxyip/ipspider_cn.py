@@ -40,26 +40,26 @@ def get_html(url):
 
 def main():
 
-    # db = link_mongo()
-    # f = pybloom.BloomFilter(capacity=100000, error_rate=0.0001)
-    # for x in db.bigpool.find():
-    #     f.add(x["ip"])
+    db = link_mongo()
+    f = pybloom.BloomFilter(capacity=100000, error_rate=0.0001)
+    for x in db.bigpool.find():
+        f.add(x["ip"])
     url = 'http://cn-proxy.com/'
     html = get_html(url)
     print html
     ip_list = re.findall('<tr><td>(.*?)</td><td>(.*?)</td>', html)
     for x in ip_list:
-        # if x[0] == "服务器地址":
-        #     continue
+        if x[0] == "服务器地址":
+            continue
         ip = ':'.join(x)
         print ip
-        # if ip in f:
-        #     continue
-        # else:
-        #     print ip
-        #     f.add(ip)
-        #     db.bigpool.insert({"ip": ip})
-        #     db.kaixin.insert({"ip": ip})
+        if ip in f:
+            continue
+        else:
+            print ip
+            f.add(ip)
+            db.bigpool.insert({"ip": ip})
+            db.kaixin.insert({"ip": ip})
 
 
 if __name__ == '__main__':
