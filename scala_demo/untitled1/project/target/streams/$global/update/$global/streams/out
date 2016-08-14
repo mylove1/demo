@@ -1,4 +1,4 @@
-[info] Updating {file:/C:/Users/cooper/IdeaProjects/untitled1/project/}untitled1-build...
+[info] Updating {file:/E:/project/git/demo/scala_demo/untitled1/project/}untitled1-build...
 [debug] :: resolving dependencies :: default#untitled1-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#untitled1-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#untitled1-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42bab498
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@403f71d5
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 776ms :: artifacts dl 31ms
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT compile produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-compile.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT runtime produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-runtime.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT test produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-test.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT provided produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-provided.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT optional produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-optional.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT compile-internal produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-compile-internal.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-runtime-internal.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT test-internal produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-test-internal.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT plugin produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-plugin.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT sources produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-sources.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT docs produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-docs.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT pom produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-pom.xml
-[debug] 	report for default#untitled1-build;0.1-SNAPSHOT scala-tool produced in C:\Users\cooper\IdeaProjects\untitled1\project\target\resolution-cache\reports\default-untitled1-build-scala-tool.xml
-[debug] 	resolve done (776ms resolve - 31ms download)
+[debug] :: resolution report :: resolve 4893ms :: artifacts dl 364ms
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT compile produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-compile.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT runtime produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-runtime.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT test produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-test.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT provided produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-provided.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT optional produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-optional.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT compile-internal produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-compile-internal.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT runtime-internal produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-runtime-internal.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT test-internal produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-test-internal.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT plugin produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-plugin.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT sources produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-sources.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT docs produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-docs.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT pom produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-pom.xml
+[debug] 	report for default#untitled1-build;0.1-SNAPSHOT scala-tool produced in E:\project\git\demo\scala_demo\untitled1\project\target\resolution-cache\reports\default-untitled1-build-scala-tool.xml
+[debug] 	resolve done (4893ms resolve - 364ms download)
 [info] Done updating.

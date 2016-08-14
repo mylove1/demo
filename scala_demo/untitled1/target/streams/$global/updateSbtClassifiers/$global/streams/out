@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to C:\Users\Nailcui\.ivy2\cache
 [debug] :: resolving dependencies :: default#untitled1$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -703,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 361ms :: artifacts dl 22ms
-[debug] 	report for default#untitled1$sbt_2.11;1.0 default produced in C:\Users\cooper\IdeaProjects\untitled1\target\resolution-cache\reports\default-untitled1$sbt_2.11-default.xml
-[debug] 	resolve done (361ms resolve - 22ms download)
+[debug] :: resolution report :: resolve 697ms :: artifacts dl 45ms
+[debug] 	report for default#untitled1$sbt_2.11;1.0 default produced in E:\project\git\demo\scala_demo\untitled1\target\resolution-cache\reports\default-untitled1$sbt_2.11-default.xml
+[debug] 	resolve done (697ms resolve - 45ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#untitled1$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1010,11 +1011,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_2;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_2;0.13.8
 [debug] 	found org.scala-sbt#precompiled-2_9_2;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#untitled1$sources_2.11;1.0->org.scala-sbt#precompiled-2_9_3;0.13.8 [default->default(compile)]
-[info] Resolving org.scala-sbt#precompiled-2_9_3;0.13.8 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.8 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
-[debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar(src)
@@ -1068,7 +1064,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 61ms :: artifacts dl 16ms
-[debug] 	report for default#untitled1$sources_2.11;1.0 default produced in C:\Users\cooper\IdeaProjects\untitled1\target\resolution-cache\reports\default-untitled1$sources_2.11-default.xml
-[debug] 	resolve done (61ms resolve - 16ms download)
+[debug] :: resolution report :: resolve 202ms :: artifacts dl 43ms
+[debug] 	report for default#untitled1$sources_2.11;1.0 default produced in E:\project\git\demo\scala_demo\untitled1\target\resolution-cache\reports\default-untitled1$sources_2.11-default.xml
+[debug] 	resolve done (202ms resolve - 43ms download)
