@@ -39,7 +39,7 @@ def post_comp():
 
 
 if __name__ == '__main__':
-    getcomp = 6022244
+    getcomp = 6590964
 
     conn = pymongo.Connection('192.168.100.55', 27017)
     db = conn.wenshu.wenshu

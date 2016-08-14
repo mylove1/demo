@@ -1,207 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="16.8.12 scala一个demo文件">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$$anonfun$$sbtdef$1$$anonfun$apply$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2$$anonfun$$sbtdef$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/$global/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compile/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/.history" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/AtomicTime$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/AtomicTime.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler$SimpleFalsifyingWebConnection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/Crewler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/FileIO$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/FileIO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$$anonfun$fac$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$$anonfun$printnum$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/HelloWorld.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestHtmlUnit$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestHtmlUnit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestRequest$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan$.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan$SimpleFalsifyingWebConnection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/scala-2.11/classes/TestTianYan.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/ivySbt/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/projectDescriptors/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/dictionaries/cooper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_codec_commons_codec_1_10_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_io_commons_io_2_5_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__commons_logging_commons_logging_1_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_cssparser_cssparser_0_9_20_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_htmlunit_2_23_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_htmlunit_core_js_2_23_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__net_sourceforge_htmlunit_neko_htmlunit_2_23_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_commons_commons_lang3_3_4_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpcore_4_4_4_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_apache_httpcomponents_httpmime_4_5_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_jetty_io_9_2_18_v20160721_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_jetty_util_9_2_18_v20160721_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_api_9_2_18_v20160721_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_client_9_2_18_v20160721_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_eclipse_jetty_websocket_websocket_common_9_2_18_v20160721_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_8_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__org_w3c_css_sac_1_3_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xalan_serializer_2_7_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xalan_xalan_2_7_2_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xerces_xercesImpl_2_11_0_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/libraries/SBT__xml_apis_xml_apis_1_4_01_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules/untitled1-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/modules/untitled1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/build.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/plugins.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/project/target/config-classes/$da8b149409014aa356f6.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$14f68724e17386361e7f.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$3c380f99f7542db2cff5.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$551733b0ef8c6ee04ba7.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$c50bf4c6e686e4ea21d2.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$e72ee793cbd9ced851dd.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$ed76d71a57f922490d7c.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/config-classes/$f4290db4d0474ad497c2.cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/default/untitled1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/default/untitled1-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/default-untitled1-build-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/copyResources/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/project/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/Crewler.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/FileIO.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/Hello.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/HelloWorld.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestHtmlUnit.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestJsoup.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestRequest.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/src/main/scala/TestTianYan.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sbt_2.11/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sbt_2.11/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sources_2.11/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1$sources_2.11/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1_2.11/1.0/resolved.xml.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/default/untitled1_2.11/1.0/resolved.xml.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sbt_2.11-default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1$sources_2.11-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-compile-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-compile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-docs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-optional.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-provided.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-runtime-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-runtime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-scala-tool.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-sources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-test-internal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/default-untitled1_2.11-test.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/ivy-report.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/resolution-cache/reports/ivy-report.xsl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/$global/dumpStructure/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/update/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/compile/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/runtime/unmanagedJars/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/externalDependencyClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/managedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/unmanagedClasspath/$global/streams/export" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scala_demo/untitled1/target/streams/test/unmanagedJars/$global/streams/export" />
+    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="demo.iws" />
@@ -222,36 +22,52 @@
     <favorites_list name="demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ipspider_guobanjia.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxyip/ipspider_guobanjia.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sliver_shangbiao.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="e#73#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1656">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iptest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/webspider/master/iptest.py">
+      <file leaf-file-name="sliver_compweb.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2369">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipspider_ip181.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxyip/ipspider_ip181.py">
+      <file leaf-file-name="sliver_wenshu.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="3979">
+              <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sliver_zhuanli.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rihger.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzscredit/rihger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -272,13 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzscredit/creditchina/config.py" />
-        <option value="$PROJECT_DIR$/python/test/test_no.py" />
-        <option value="$PROJECT_DIR$/xzscredit/tianyancha/tianyan_no.py" />
-        <option value="$PROJECT_DIR$/xzscredit/tianyancha/sliver.py" />
-        <option value="$PROJECT_DIR$/xzscredit/tianyancha/searchbox.py" />
-        <option value="$PROJECT_DIR$/xzscredit/tianyancha/sliver_searchbox.py" />
-        <option value="$PROJECT_DIR$/xzscredit/tianyancha/sliver_suggest.py" />
         <option value="$PROJECT_DIR$/xzscredit/tianyancha/master.py" />
         <option value="$PROJECT_DIR$/xzscredit/tianyancha/tianyancha.py" />
         <option value="$PROJECT_DIR$/xzscredit/tianyancha/info/text_no.py" />
@@ -305,24 +114,31 @@
         <option value="$PROJECT_DIR$/proxyip/ipspider.py" />
         <option value="$PROJECT_DIR$/project/webspider/master/ipspider.py" />
         <option value="$PROJECT_DIR$/proxyip/ipspider_ip181.py" />
-        <option value="$PROJECT_DIR$/proxyip/ipspider_cn.py" />
         <option value="$PROJECT_DIR$/python/pymongo_demo/__init__.py" />
         <option value="$PROJECT_DIR$/python/sqlite_demo/__init__.py" />
         <option value="$PROJECT_DIR$/proxyip/ip_zhengli.py" />
+        <option value="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
+        <option value="$PROJECT_DIR$/proxyip/ipspider_cn.py" />
+        <option value="$PROJECT_DIR$/project/tell.py" />
+        <option value="$PROJECT_DIR$/python/demo_post.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/test.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/yichangcrawl.py" />
+        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/doviewinfo.py" />
         <option value="$PROJECT_DIR$/project/webspider/master/iptest.py" />
-        <option value="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" />
-        <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" />
         <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py" />
+        <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" />
         <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
         <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
-        <option value="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" />
         <option value="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py" />
+        <option value="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" />
         <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-        <option value="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
+        <option value="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py" />
+        <option value="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py" />
+        <option value="$PROJECT_DIR$/xzscredit/rihger.py" />
       </list>
     </option>
   </component>
@@ -376,72 +192,75 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\demo\proxyip" />
-      <recent name="E:\git\demo\xzscredit\wenshu\sliver_wenshu" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzscredit\xinyonggongshi\zhejiang" />
       <recent name="E:\git\demo\proxyip" />
       <recent name="E:\git\demo\xzscredit\compweb" />
       <recent name="E:\git\demo\xzscredit\shangbiaojv" />
       <recent name="E:\git\demo\xzscredit\zhuanli\sliver_zhuanli" />
-      <recent name="E:\git\demo\xzscredit\zhuanli\master_zhuanli" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\demo\proxyip" />
+      <recent name="E:\git\demo\xzscredit\wenshu\sliver_wenshu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.iptest">
-    <configuration default="false" name="ip_zhengli" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.rihger">
+    <configuration default="false" name="yichangcrawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxyip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxyip/ip_zhengli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/yichangcrawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trun_headers_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="doviewinfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/doviewinfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -463,53 +282,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ipspider_cn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="rihger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxyip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxyip/ipspider_cn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sliver_compweb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ipspider_guobanjia" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/proxyip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/rihger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -649,19 +434,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ip_zhengli" />
-      <item index="1" class="java.lang.String" itemvalue="Python.iptest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ipspider_cn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sliver_compweb" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ipspider_guobanjia" />
+      <item index="0" class="java.lang.String" itemvalue="Python.yichangcrawl" />
+      <item index="1" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.doviewinfo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.iptest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.rihger" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.iptest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ipspider_guobanjia" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sliver_compweb" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ip_zhengli" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ipspider_cn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.rihger" />
+        <item index="1" class="java.lang.String" itemvalue="Python.doviewinfo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.iptest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.yichangcrawl" />
       </list>
     </recent_temporary>
   </component>
@@ -721,19 +506,40 @@
       <option name="project" value="LOCAL" />
       <updated>1470990790344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="16.8.12 scala一个demo文件">
+      <created>1470991278703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1470991278703</updated>
+    </task>
+    <task id="LOCAL-00008" summary="16.8.12 scala一个demo文件">
+      <created>1471135887599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1471135887599</updated>
+    </task>
+    <task id="LOCAL-00009" summary="16.8.12 scala一个demo文件">
+      <created>1471146467182</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1471146467182</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26439232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3326226" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7084222" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -777,77 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/zhuanli/spiders/zhuanli_scrapy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/tianyancha/tianyancha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="113" column="4" selection-start-line="113" selection-start-column="4" selection-end-line="113" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/shangbiaojv/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/shangbiaojv/urllist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/shangbiaojv/spiders/shangbiaojv_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/master_compweb/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu.py" />
     <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -981,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_kaixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/sqlite_demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -1002,31 +730,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/proxyip/maiip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_guobanjia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/shangbiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_ip181.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proxyip/ipspider_cn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_kaixin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/tell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python/pymongo_demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
+        <state relative-caret-position="551">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/demo_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="99" column="4" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/webspider/master/iptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/doviewinfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/yichangcrawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py">
+    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="102" column="55" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+        <state relative-caret-position="230">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="92">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1037,16 +863,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/complistadd.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="69">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="517">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
@@ -1060,79 +893,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="69">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="54" />
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="1656">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxyip/maiip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="2369">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_ip181.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="3979">
+          <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyip/ipspider_guobanjia.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#73#88#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="77">
+          <caret line="88" column="20" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/webspider/master/iptest.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/rihger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="782">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
