@@ -56,8 +56,7 @@ object TestHtmlUnit {
 //    println("ok")
 //    println(page.getWebResponse.getContentAsString())
 //    println(page.isHtmlPage)
-//    println(page.asText())
-//    println(page.asXml())
+
 
 //<<<<<<<<<<<<<<< 页面解析 >>>>>>>>>>>>>>>>>>>
 
