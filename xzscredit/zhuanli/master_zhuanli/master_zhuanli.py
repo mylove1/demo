@@ -53,7 +53,7 @@ def link_mysql():
     return cursor
 
 if __name__ == '__main__':
-    getcomp = 7845243
+    getcomp = 7883271
     cursor = link_mysql()
     kwlist = complistadd.kwlist
 
