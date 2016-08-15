@@ -77,7 +77,7 @@ def main():
         thread.start()
 
 if __name__ == '__main__':
-    time.sleep(3600)
+    # time.sleep(3600)
     proxypool = []
     conn = pymongo.Connection("192.168.100.55", 27017)
     db = conn.ip
