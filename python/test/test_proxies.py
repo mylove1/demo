@@ -2,7 +2,7 @@
 import requests
 
 url = "http://httpbin.org/ip"
-url = 'http://wenshu.court.gov.cn/List/ListContent'
+# url = 'http://wenshu.court.gov.cn/List/ListContent'
 # url = "http://www.baidu.com"
 print 'a'
 data = {
@@ -22,11 +22,12 @@ proxies = {
     # 'http': '158.181.145.219:3128',
     # 'http': '163.125.195.45:9999',
     # 'http': '62.195.69.35:80',
-    'http': '120.52.73.30:80',
-    'http': '204.29.120.89:120'
+    # 'http': '120.52.73.30:80',
+    'http': '182.61.58.100:3128'
 }
-r = requests.post(url, timeout=3, data=data, proxies=proxies)
-print len(r.text)
+r = requests.post(url, data=data, proxies=proxies)
+print r.status_code
+print r.text
 #
 # def try_speed(url):
 #     try:

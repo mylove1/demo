@@ -13,7 +13,6 @@ class CompWebCrawl(threading.Thread):
         threading.Thread.__init__(self)
         self.agent = config.agents
         self.url = 'http://whois.chinaz.com/reverse'
-        self.proxypool = proxypool
 
     def get_html(self, key, url, page=1):
         data = {
@@ -32,8 +31,14 @@ class CompWebCrawl(threading.Thread):
                 'Connection': 'keep-alive',
             }
             # [use proxy]
+
             try:
-                proxy = random.choice(self.proxypool)
+                proxy = proxypool.pop(0)
+            except:
+                proxypool.extend(requests.get("http://192.168.0.50:8384/ip/100").text.split())
+                continue
+
+            try:
                 r = requests.post(url, headers=this_headers, data=data, proxies={'http': proxy}, timeout=5)
                 break
             except:
@@ -49,12 +54,12 @@ class CompWebCrawl(threading.Thread):
         return datas
 
     def put_mess(self, mess):
-        requests.post('http://192.168.100.55:12222/post', data=mess)
+        requests.post('http://'+config.master+':12222/post', data=mess)
 
 
 
     def get_kw(self):
-        r = requests.get('http://192.168.100.55:12222/comp')
+        r = requests.get('http://'+config.master+':12222/comp')
         return r.text
 
 
@@ -120,11 +125,6 @@ class CompWebCrawl(threading.Thread):
 if __name__ == '__main__':
     # time.sleep(3600)
     proxypool = []
-    conn = pymongo.Connection("192.168.100.55", 27017)
-    db = conn.ip
-    for x in db.useful.find():
-        proxypool.append(x["ip"])
-
-    for x in xrange(5):
+    for x in xrange(10):
         thread = CompWebCrawl()
         thread.start()

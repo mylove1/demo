@@ -13,7 +13,6 @@ class ShangbiaoCrawl(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
         self.agent = config.agents
-        self.proxypool = proxypool
 
     def get_html(self, url):
         while 1:
@@ -23,7 +22,11 @@ class ShangbiaoCrawl(threading.Thread):
                 'Connection': 'keep-alive',
             }
             try:
-                proxy = random.choice(self.proxypool)
+                proxy = proxypool.pop(0)
+            except:
+                proxypool.extend(requests.get("http://192.168.0.50:8384/ip/100").text.split())
+                continue
+            try:
                 r = requests.get(url, headers=this_headers, proxies={'http': proxy}, timeout=5)
                 break
             except:
@@ -33,12 +36,12 @@ class ShangbiaoCrawl(threading.Thread):
 
 
     def put_mess(self, mess):
-        requests.post('http://192.168.100.55:12121/post', data=mess)
+        requests.post('http://'+config.master+':12121/post', data=mess)
 
 
 
     def get_kw(self):
-        r = requests.get('http://192.168.100.55:12121/comp')
+        r = requests.get('http://'+config.master+':12121/comp')
         return r.text
 
 
@@ -71,16 +74,12 @@ class ShangbiaoCrawl(threading.Thread):
 
 
 
-def main():
-    for x in xrange(5):
-        thread = ShangbiaoCrawl()
-        thread.start()
+
+
 
 if __name__ == '__main__':
     # time.sleep(3600)
     proxypool = []
-    conn = pymongo.Connection("192.168.100.55", 27017)
-    db = conn.ip
-    for x in db.useful.find():
-        proxypool.append(x["ip"])
-    main()
+    for x in xrange(5):
+        thread = ShangbiaoCrawl()
+        thread.start()

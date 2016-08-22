@@ -79,18 +79,43 @@ class justtest(threading.Thread):
 
 
 if __name__ == '__main__':
+    # # bigpool -> usefual
+    #
+    # usefulip = []
+    # ippool = []
+    # db = link_mongo()
+    # f = pybloom.BloomFilter(10000, 0.001)
+    # for x in db.useful.find():
+    #     f.add(x["ip"])
+    # # for x in db.kaixin.find():
+    # for x in db.bigpool.find():
+    #     if x["ip"] in f:
+    #         continue
+    #     ippool.append(x["ip"])
+    # # db.kaixin.drop()
+    # print len(ippool)
+    # for x in range(10):
+    #     thread = iptest()
+    #     thread.start()
+
+
+
+
+
+
+    # kaixin -> usefuil
     usefulip = []
     ippool = []
     db = link_mongo()
     f = pybloom.BloomFilter(10000, 0.001)
     for x in db.useful.find():
         f.add(x["ip"])
-    # for x in db.kaixin.find():
-    for x in db.bigpool.find():
+    for x in db.kaixin.find():
+    # for x in db.bigpool.find():
         if x["ip"] in f:
             continue
         ippool.append(x["ip"])
-    # db.kaixin.drop()
+    db.kaixin.drop()
     print len(ippool)
     for x in range(10):
         thread = iptest()

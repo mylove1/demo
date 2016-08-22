@@ -60,12 +60,12 @@ class ZhuanliCrawl(threading.Thread):
 
 
     def put_mess(self, mess):
-        requests.post('http://192.168.100.55:7474/post', data=mess)
+        requests.post('http://'+config.master+':7474/post', data=mess)
 
 
 
     def get_kw(self):
-        r = requests.get('http://192.168.100.55:7474/comp')
+        r = requests.get('http://'+config.master+':7474/comp')
         return r.text
 
 

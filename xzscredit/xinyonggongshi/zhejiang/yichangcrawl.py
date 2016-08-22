@@ -95,16 +95,16 @@ class YichangCrawl(threading.Thread):
 if __name__ == '__main__':
 
     proxypool = []
-    conn = pymongo.Connection("192.168.100.55", 27017)
+    conn = pymongo.Connection(config.master, 27017)
     db = conn.ip
     for x in db.useful.find():
         proxypool.append(x["ip"])
 
     db = conn.zhejiang
-    pagelist = [x for x in xrange(1, 18746)]
+    pagelist = [x for x in xrange(1, 18732)]
     for x in db.listhaved.find():
         pagelist.remove(x["page"])
     print 'total',len(pagelist), 'pages'
-    for x in range(10):
+    for x in range(20):
         thread = YichangCrawl()
         thread.start()

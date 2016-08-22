@@ -144,6 +144,7 @@ class YichangCrawl(threading.Thread):
 def main():
     pagelist = [x for x in xrange(18746)]
     for x in range(5):
+        pass
 
 
 

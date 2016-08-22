@@ -3,6 +3,7 @@ import MySQLdb
 from flask import Flask
 from flask import request
 import complistadd
+import config
 
 app = Flask(__name__)
 
@@ -47,13 +48,13 @@ def post_comp():
     return 'o'
 
 def link_mysql():
-    conn = MySQLdb.connect(host='192.168.100.55', user='root', passwd='dingyu', db='dingyu', port=3306,
+    conn = MySQLdb.connect(host=config.master, user='root', passwd='dingyu', db='dingyu', port=3306,
                            charset="utf8")
     cursor = conn.cursor()
     return cursor
 
 if __name__ == '__main__':
-    getcomp = 8614537
+    getcomp = 27062000
     cursor = link_mysql()
     kwlist = complistadd.kwlist
 
@@ -82,7 +83,7 @@ if __name__ == '__main__':
     # for comp in [u"杭州司麦数据技术有限公司",u"杭州司景峰贸易有限公司",u"杭州司捷汽车修理有限公司"]:
     #     f.add(comp)
     # kwlist = ["杭州司","杭州司","杭州","杭州 公司","杭州司目科技有限公司",]
-    app.run(host="192.168.100.55", port=7474)
+    app.run(host=config.master, port=7474)
     print len(kwlist)
 
 

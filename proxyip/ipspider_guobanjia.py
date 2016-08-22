@@ -9,6 +9,7 @@ import time
 import threading
 import pymongo
 import socket
+from selenium import webdriver
 import pybloom
 
 
@@ -34,6 +35,9 @@ def get_html(url):
 
 
 def main():
+    browser = webdriver.PhantomJS(
+        executable_path=r"D:\PhantomJS\phantomjs-2.1.1-windows\bin\phantomjs.exe", service_args=self.service_args)
+    browser.set_page_load_timeout(20)
 
     # db = link_mongo()
     # f = pybloom.BloomFilter(capacity=100000, error_rate=0.0001)
@@ -41,6 +45,29 @@ def main():
     #     f.add(x["ip"])
 
     url = 'http://proxy.goubanjia.com/free/gngn/index.shtml'
+    while 1:
+        try:
+            self.browser.get(url)
+            time.sleep(1)
+            html = self.browser.execute_script("return document.documentElement.outerHTML")
+            html = ''.join(html.split()).encode('utf-8')
+            datas = re.findall(
+                'title="发明专利">(.*?)</span>.*?record:zhuanlimc"title="(.*?)">.*?record:shenqingrxm"title="(.*?)">.*?record:shenqingr"class="text_ellipsis"title="(.*?)">.*?record:zhufenlh"title="(.*?)">',
+                html)
+            items = []
+            for x in datas:
+                item = {}
+                item["company"] = x[2]
+                item["number"] = x[4]
+                item["type"] = x[0]
+                item["name"] = x[1]
+                item["date"] = x[3]
+                items.append(item)
+            # print json.dumps(items)
+            self.put_mess({"comp": str(items)})
+            break
+        except:
+            '---------------browser 获取网页出错--------------'
     # while 1:
     html = get_html(url)
     r = [
@@ -64,22 +91,6 @@ def main():
     for txt in r:
         html = html.replace(txt, '')
     print html
-
-    # ip_list = re.findall("""<tdclass="ip"><pstyle='display:none;'></p><span></span><pstyle='display:none;'>(.*?)</p><span>(.*?)</span><spanstyle='display:inline-block;'>(.*?)</span><pstyle='display:none;'>(.*?)</p><span>(.*?)</span><divstyle='display:inline-block;'>(.*?)</div><spanstyle='display:inline-block;'></span><pstyle='display:none;'></p><span></span><pstyle='display:none;'>(.*?)</p><span>00</span><divstyle='display:inline-block;'></div><spanstyle='display:inline-block;'>(.*?)</span><spanstyle='display:inline-block;'>(.*?)</span><divstyle='display:inline-block;'>(.*?)</div><divstyle='display:inline-block;'>(.*?)</div></td><tdclass="port.*?>(.*?)</td>""", html)
-    # for x in ip_list:
-    #     print x
-    #     if x[2] == u"高匿":
-    #         ip = ':'.join(x[:2])
-    #         if ip in f:
-    #             continue
-    #         else:
-    #             print ip
-    #             f.add(ip)
-    #             db.bigpool.insert({"ip": ip})
-    #             db.kaixin.insert({"ip": ip})
-    # print 'sleep'
-    # print time.ctime(time.time())
-    # time.sleep(100)
 
 
 if __name__ == '__main__':

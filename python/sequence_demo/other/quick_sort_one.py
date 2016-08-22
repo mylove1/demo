@@ -7,22 +7,17 @@ def quick_sort(l, start, end):
     i = start
     j = end
     while (i < j):
-
-        while (l[j] < mid and i < j):
+        while (l[j] > mid and i < j):
             j = j - 1
-        print 'i', i, 'j', j
-        print l
         l[i] = l[j]
-        print l
 
         while (l[i] < mid and i < j):
             i = i + 1
-        print 'i', i, 'j', j
-        print l
-        l[i], l[j] = l[j], l[i]
 
-        print l
-        # break
+        l[j] = l[i]
+
+    l[i] = mid
+    return l
 
 
 
@@ -72,9 +67,9 @@ def partition(arr, left, right):
 if __name__ == '__main__':
     # l = numpy.random.randint(10000, size=1000000)
     # l = list(l)
-    l = [2, 3, 8, 0, 2, 8]
+    l = [2, 3, 8, 0, 1, 8]
     start_time = time.time()
-    l = quicksort(l, 0, len(l)-1)
+    l = quick_sort(l, 0, len(l)-1)
     print l
     usetime = time.time() - start_time
     print usetime

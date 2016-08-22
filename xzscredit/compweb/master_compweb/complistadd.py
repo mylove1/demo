@@ -2,9 +2,10 @@
 import threading
 import MySQLdb
 import time
+import config
 
 
-start_num = 2796649
+start_num = 4568398
 kwlist = []
 
 class compadd(threading.Thread):
@@ -20,7 +21,7 @@ class compadd(threading.Thread):
                 if b >= 27107534:
                     b = 27107534
                 try:
-                    connect = MySQLdb.connect(host='192.168.100.55', user='root', passwd='dingyu', db='dingyu', port=3306,
+                    connect = MySQLdb.connect(host=config.master, user='root', passwd='dingyu', db='dingyu', port=3306,
                                            charset="utf8")
                     cursor = connect.cursor()
                     cursor.execute("select name from company_zong where id between %s and %s  ;" % (a, b))

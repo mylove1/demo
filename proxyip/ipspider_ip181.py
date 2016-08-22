@@ -40,7 +40,7 @@ def main():
         html = get_html(url)
         ip_list = re.findall('<tr.*?><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td>', html)
         for x in ip_list:
-            if x[2] == u"高匿":
+            # if x[2] == u"高匿":
                 ip = ':'.join(x[:2])
                 if ip in f:
                     continue

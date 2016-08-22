@@ -4,6 +4,7 @@ import time
 import random
 import MySQLdb
 import re
+import config
 import pybloom
 import pymongo
 from flask import Flask
@@ -39,9 +40,9 @@ def post_comp():
 
 
 if __name__ == '__main__':
-    getcomp = 6959776
+    getcomp = 8492284
 
-    conn = pymongo.Connection('192.168.100.55', 27017)
+    conn = pymongo.Connection(config.master, 27017)
     db = conn.wenshu.wenshu
 
     kwlist = complistadd.kwlist
@@ -71,6 +72,6 @@ if __name__ == '__main__':
     # for comp in [u"杭州司麦数据技术有限公司",u"杭州司景峰贸易有限公司",u"杭州司捷汽车修理有限公司"]:
     #     f.add(comp)
     # kwlist = ["杭州司","杭州司","杭州","杭州 公司","杭州司目科技有限公司",]
-    app.run(host="192.168.100.55", port=12315)
+    app.run(host=config.master, port=12315)
 
 
