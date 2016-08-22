@@ -2,106 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/xingzhengquhua/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/xingzhengquhua/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/ipspider_kuai.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyip/iptest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/decorator_demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/decorator_demo/testa.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spynner_demo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/spynner_demo/test_a.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/sqlite_demo/notes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/sqlite_demo/testa/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/sqlite_demo/testa/test1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/tianyan_crawl/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/tianyan_crawl/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/tianyan_crawl/tianyan_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/resource.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/spider.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/iptestall.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/zhengli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/tianyancha/master_tianyan/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/tianyancha/master_tianyan/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/tianyancha/master_tianyan/master_complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/tianyancha/master_tianyan/master_webapp_tianyan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/tianyancha/master_tianyan/test_a.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/wenshu/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyong/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyong/xinyonghenan/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyong/xinyonghenan/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyong/xinyonghenan/shuanggongshi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyong/xinyonghenan/xintyshxydm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/test_search.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/webspider/master/iptest.py" afterPath="$PROJECT_DIR$/project/webspider/master/iptest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" afterPath="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyip/ipspider_ip181.py" afterPath="$PROJECT_DIR$/proxyip/ipspider_ip181.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/demo_post.py" afterPath="$PROJECT_DIR$/python/demo_post.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/demo_xpath.py" afterPath="$PROJECT_DIR$/python/demo_xpath.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/sequence_demo/other/quick_sort_one.py" afterPath="$PROJECT_DIR$/python/sequence_demo/other/quick_sort_one.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/sqlite_demo/__init__.py" afterPath="$PROJECT_DIR$/python/sqlite_demo/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/test/test_get.py" afterPath="$PROJECT_DIR$/python/test/test_get.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/test/test_proxies.py" afterPath="$PROJECT_DIR$/python/test/test_proxies.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/config.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/config.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" afterPath="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" afterPath="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/config.py" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/config.py" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py" afterPath="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/config.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/config.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/yichangcrawl.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/zhejiang/yichangcrawl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/config.py" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/config.py" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py" afterPath="$PROJECT_DIR$/xzscredit/zhuanli/sliver_zhuanli/sliver_zhuanli.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -122,33 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="creditchina_crawl.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py">
+      <file leaf-file-name="ip_web.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="72" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-              <folding>
-                <element signature="e#81#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master_complist.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="575">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="complistadd.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
+      <file leaf-file-name="iptest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="184">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master_complist.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,42 +61,8 @@
       <file leaf-file-name="sliver_complist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
-              <folding>
-                <element signature="e#81#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sliver_wenshu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="139" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="18" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="trun_headers_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -233,8 +103,6 @@
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/zhengli.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/spider.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
         <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/sliver_shangbiao/sliver_shangbiao.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/test.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/tianyan_crawl/config.py" />
@@ -261,9 +129,11 @@
         <option value="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
       </list>
     </option>
   </component>
@@ -484,6 +354,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_proxy_pool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_proxy_pool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jingyingyichang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -640,6 +558,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="pymongo_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="decorator_demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -680,58 +616,7 @@
       <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_pool\ipcrawl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.creditchina_crawl">
-    <configuration default="false" name="history_crawl (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="history_sliver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trun_headers_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ip_new_test">
     <configuration default="false" name="creditchina_crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -762,6 +647,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="master_complist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sliver_complist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ip_new_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -901,19 +837,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.history_crawl (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.history_sliver" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.master_complist" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sliver_complist" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ip_new_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.history_crawl (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.history_sliver" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ip_new_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.master_complist" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sliver_complist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -1033,14 +969,21 @@
       <option name="project" value="LOCAL" />
       <updated>1471256070214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="16.8.22&#10;">
+      <created>1471842442352</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1471842442352</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1369936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16791044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1072,7 +1015,8 @@
     <MESSAGE value="16.8.4，简单的分布式，重写文书" />
     <MESSAGE value="16.8.12 scala一个demo文件" />
     <MESSAGE value="16.8.15整理&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.8.15整理&#10;" />
+    <MESSAGE value="16.8.22&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.8.22&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,16 +1027,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/xingzhengquhua/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/tell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1160,28 +1094,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="39" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1288,14 +1204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1456,25 +1364,7 @@
         <state relative-caret-position="537">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="39" selection-end-column="18" />
           <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="139" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
-          <folding>
-            <element signature="e#81#96#0" expanded="true" />
+            <element signature="e#15#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1495,28 +1385,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python/pymongo_demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="37" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="72" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
           <folding>
-            <element signature="e#81#96#0" expanded="true" />
+            <element signature="e#81#96#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1265">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="92">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="92">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>

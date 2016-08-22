@@ -47,6 +47,6 @@ for x in db.useful.find():
     ippool.append(x["ip"])
 wheel = cycle(ippool)
 print len(ippool)
-for x in range(10):
+for x in range(5):
     thread = justtest()
     thread.start()

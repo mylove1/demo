@@ -2,8 +2,12 @@
 import threading
 import MySQLdb
 import time
-import config
-start = 1
+import pymongo
+MASTERIP = '192.168.0.50'
+conn = pymongo.Connection(MASTERIP, 27017)
+db = conn.creditchina
+start = db.totalcount.find()[0]["count"] + 1
+print start
 start_num = start
 kwlist = []
 
@@ -20,7 +24,7 @@ class compadd(threading.Thread):
                 if b >= 27107534:
                     b = 27107534
                 try:
-                    conn = MySQLdb.connect(host=config.master, user='root', passwd='dingyu', db='dingyu', port=3306,
+                    conn = MySQLdb.connect(host=MASTERIP, user='root', passwd='dingyu', db='dingyu', port=3306,
                                            charset="utf8")
                     cur = conn.cursor()
                     cur.execute("select name from company_zong where id between %s and %s  ;" % (a, b))
@@ -34,6 +38,8 @@ class compadd(threading.Thread):
                 time.sleep(200)
             else:
                 time.sleep(200)
+
+
 
 a = compadd()
 a.start()

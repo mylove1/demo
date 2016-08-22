@@ -1,14 +1,16 @@
 # coding:utf-8
 '''input a comppany keyword,then output a data that json type.'''
 import requests
+import threading
 import random
-import config
 import pymongo
 import time
 import json
 
-class CreditChina(object):
+class CreditChina(threading.Thread):
     def __init__(self):
+        threading.Thread.__init__(self)
+
 
         self.headers = {
     'Accept': 'text/plain, */*; q=0.01',
@@ -39,8 +41,11 @@ class CreditChina(object):
         }
         while 1:
             try:
-                proxy = requests.get('http://192.168.0.50:8384/ip').text
-                print proxy
+                proxy = proxypool.pop(0)
+            except:
+                proxypool.extend(requests.get("http://" + MASTERIP +":8384/ip/100").text.split())
+                continue
+            try:
                 r = requests.post(url, data=data, headers=self.headers, timeout=5, proxies={'http': proxy},)
                 if r.text[:9] == '{"result"': break
             except:
@@ -63,7 +68,11 @@ class CreditChina(object):
     def gethtml(self, url):
         while 1:
             try:
-                proxy = requests.get('http://192.168.0.100:8384/ip').text
+                try:
+                    proxy = proxypool.pop(0)
+                except:
+                    proxypool.extend(requests.get("http://' + MASTERIP +':8384/ip/100").text.split())
+                    continue
                 r = requests.get(url, headers=self.headers, timeout=5, proxies={'http': proxy},)
                 break
             except:
@@ -82,10 +91,10 @@ class CreditChina(object):
             return None
 
     def put_mess(self, dict):
-        mess = json.dumps(dict)
-        mess = json.loads(mess)
-        db.complist.insert(mess)
-        print '---------------->>>'
+        mess = {"comp": json.dumps({"name": dict["name"], "area": dict["area"], "encryStr": dict["encryStr"][:-1], "objectType": dict["objectType"]})}
+        # mess = json.loads(mess)
+        requests.post('http://' + MASTERIP + ':12333/post', data=mess)
+        print '--------------------------------------->>>'
 
 
         # requests.post('http://' + MASTERIP +':12333/post', data=mess)
@@ -97,24 +106,36 @@ class CreditChina(object):
         return r.text
 
     def resolve(self, dic):
-        for j in dic:
-            self.put_mess(j)
+        if dic:
+            for j in dic:
+                self.put_mess(j)
+        else:
+            print 'o'
 
     def run(self):
-        kw = '平煤神马建工集团'
-        kw = '平顶山市科远网络技术有限公司'
-        jlist = json.loads(self.posthtml(kw))
-        self.resolve(jlist["result"]["results"])
-        for page in range(1, (jlist["result"]["totalPageCount"])):
-            self.resolve(json)
+        while 1:
+            # kw = '平煤神马建工集团'
+            # kw = '平顶山市科远网络技术有限公司'
+            kw = self.get_kw()
+            try:
+                print kw
+            except: pass
 
+            jlist = json.loads(self.posthtml(kw))
+            self.resolve(jlist["result"]["results"])
+            for page in range(2, (jlist["result"]["totalPageCount"]) + 1):
+                print '-------------------------------page-----', page
+                jlist = json.loads(self.posthtml(kw, page))
+                self.resolve(jlist["result"]["results"])
 
 if __name__ == '__main__':
     MASTERIP = '192.168.0.50'
+    proxypool = []
     conn = pymongo.Connection(MASTERIP, 27017)
     db = conn.creditchina
-    a = CreditChina()
-    a.run()
+    for thread in range(10):
+        a = CreditChina()
+        a.start()
     # a.info_page()
 
 

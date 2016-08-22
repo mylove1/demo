@@ -55,6 +55,6 @@ if __name__ == '__main__':
         ippool.append(x["ip"])
     db.kaixin.drop()
     print len(ippool)
-    for x in range(10):
+    for x in range(20):
         thread = iptest()
         thread.start()

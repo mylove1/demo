@@ -4,7 +4,6 @@ import time
 import random
 import MySQLdb
 import re
-import config
 import pybloom
 import pymongo
 from flask import Flask
@@ -25,32 +24,30 @@ def hello():
 def get_comp():
     global getcomp
     getcomp += 1
-    db.totalcount.updata({})
-    if len(kwlist) == 0:
-        return ''
-        # return '没有了'
+    db.totalcount.update({"name": "total"}, {"$inc": {"count": 1}})
     return kwlist.pop(0)
 
 
 @app.route('/post', methods=['POST'])
 def post_comp():
     a = request.form["comp"]
-    # a = json.loads(a)
-    db.insert({'comp': eval(a)})
+    a = json.loads(a)
+    db.complist.insert(a)
     return 'o'
 
 
 if __name__ == '__main__':
+    MASTERIP = '192.168.0.50'
     getcomp = complistadd.start
 
-    conn = pymongo.Connection(config.master, 27017)
+    conn = pymongo.Connection(MASTERIP, 27017)
     db = conn.creditchina
 
-    kwlist = ["平顶山市科远网络技术有限公司"]
+    # kwlist = ["平顶山市科远网络技术有限公司"]
+    #
+    kwlist = complistadd.kwlist
 
-    # kwlist = complistadd.kwlist
 
-
-    app.run(host=config.master, port=12333)
+    app.run(host=MASTERIP, port=12333)
 
 
