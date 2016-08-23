@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/complistadd.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/mastertest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/test2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xizhi/test/test_re.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,41 +37,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ip_web.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iptest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master_complist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sliver_complist.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
+      <file leaf-file-name="master_xizhi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sliver_xizhi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mastertest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/mastertest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="14" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slivertest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_re.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_re.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_info.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -83,18 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzscredit/zhuanli/master_zhuanli/master_zhuanli.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/config.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" />
-        <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest.py" />
-        <option value="$PROJECT_DIR$/proxyip/ipspider_ip181.py" />
-        <option value="$PROJECT_DIR$/proxyip/ipspider_guobanjia.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/test.py" />
-        <option value="$PROJECT_DIR$/project/webspider/master/iptest.py" />
-        <option value="$PROJECT_DIR$/python/sqlite_demo/__init__.py" />
         <option value="$PROJECT_DIR$/python/sqlite_demo/notes.py" />
         <option value="$PROJECT_DIR$/python/sqlite_demo/testa/test1.py" />
         <option value="$PROJECT_DIR$/project/xingzhengquhua/test.py" />
@@ -124,7 +169,6 @@
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
         <option value="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py" />
         <option value="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist.py" />
@@ -134,6 +178,19 @@
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
+        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/image.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/test.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test_re.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_complist.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test/mastertest.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/complistadd.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test/test2.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test/test.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py" />
+        <option value="$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py" />
       </list>
     </option>
   </component>
@@ -220,7 +277,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wenshu" />
+              <option name="myItemId" value="xizhi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,29 +295,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wenshu" />
+              <option name="myItemId" value="xizhi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sliver_wenshu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditchina" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,7 +317,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="compweb" />
+              <option name="myItemId" value="xizhi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sliver_xizhi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,11 +339,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="compweb" />
+              <option name="myItemId" value="xizhi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sliver_compweb" />
+              <option name="myItemId" value="master_xizhi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,54 +376,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_proxy_pool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_proxy_pool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proxy_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -539,56 +534,6 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pymongo_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="decorator_demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -602,102 +547,102 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzscredit\xizhi\test" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\sliver_complist" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\master_complist" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\zhejiang\history" />
       <recent name="E:\git\demo\python\sequence_demo\myself" />
-      <recent name="E:\git\demo\proxyip" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzscredit\xizhi\master_xizhi" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\master_complist" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_pool\iptest" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\tianyan_crawl" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_pool\proxy_app" />
-      <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_pool\ipcrawl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ip_new_test">
-    <configuration default="false" name="creditchina_crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_info">
+    <configuration default="false" name="slivertest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/creditchina" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xizhi/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="sliver_xizhi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="master_complist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xizhi/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xizhi/test/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="sliver_complist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xizhi/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xizhi/test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ip_new_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xizhi/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -837,19 +782,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.master_complist" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sliver_complist" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ip_new_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.slivertest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sliver_xizhi" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_info" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ip_new_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.master_complist" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sliver_complist" />
-        <item index="3" class="java.lang.String" itemvalue="Python.creditchina_crawl" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_info" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sliver_xizhi" />
+        <item index="4" class="java.lang.String" itemvalue="Python.slivertest" />
       </list>
     </recent_temporary>
   </component>
@@ -976,7 +921,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471842442352</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="信用中国&#10;">
+      <created>1471862795348</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1471862795348</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -989,7 +941,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26012793" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34061834" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1016,7 +968,8 @@
     <MESSAGE value="16.8.12 scala一个demo文件" />
     <MESSAGE value="16.8.15整理&#10;" />
     <MESSAGE value="16.8.22&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.8.22&#10;" />
+    <MESSAGE value="信用中国&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="信用中国&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1027,105 +980,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/tell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/sqlite_demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#49#0" expanded="false" />
-            <element signature="e#1826#1839#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test/test_proxies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/zhengli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/webspider/master/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/webspider/slave/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1377,14 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/pymongo_demo/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1419,14 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1435,18 +1273,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
+    <entry file="file://$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="-361">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1456,6 +1286,131 @@
         <state relative-caret-position="575">
           <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/mastertest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
