@@ -17,10 +17,10 @@ class compadd(threading.Thread):
 
     def run(self):
         while 1:
-            if len(kwlist) <= 1000:
+            if len(kwlist) <= 10000:
                 global a, start_num
                 a = start_num
-                b = a + 9999
+                b = a + 99999
                 if b >= 27107534:
                     b = 27107534
                 try:
@@ -30,7 +30,7 @@ class compadd(threading.Thread):
                     cur.execute("select name from company_zong where id between %s and %s  ;" % (a, b))
                     for x in cur:
                         kwlist.append(x[0])
-                    start_num += 10000
+                    start_num += 100000
                 finally:
                     conn.close()
                 if b == 27107534:

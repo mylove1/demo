@@ -1,5 +1,4 @@
 # coding:utf-8
-import json
 from flask import Flask
 from flask import request
 
@@ -20,12 +19,15 @@ app = Flask(__name__)
 #     return kwlist.pop(0)
 
 
-# @app.route('/post', methods=['POST'])
-# def post_comp():
-#     a = request.form["comp"]
-#     a = json.loads(a)
-#     db.complist.insert(a)
-#     return 'o'
+@app.route('/postinfo', methods=['POST'])
+def post_info():
+    print request.form["comp"]
+    count += 1
+    print count
+    compinfo = dict(eval(request.form["comp"]))
+    print compinfo
+    print type(compinfo)
+    return 'o'
 
 @app.route('/post/compurl', methods=['POST'])
 def post_compurl():
@@ -36,6 +38,7 @@ def post_compurl():
 
 
 if __name__ == '__main__':
+    count = 0
     MASTERIP = '192.168.0.50'
     app.run(host=MASTERIP, port=12445)
 

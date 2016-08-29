@@ -24,9 +24,9 @@ class ShuangGongshi(threading.Thread):
             except:
                 break
             urllist = ["http://www.zjcredit.gov.cn/page/sgs/sgsProxy.jsp?startrecord=",
-                       str(1 + (10000 * (page - 1))),
+                       str(1 + (1000 * (page - 1))),
                        "&endrecord=",
-                       str(page * 10000),
+                       str(page * 1000),
                        "&perpage=8&totalRecord=1155093"]
             url = ''.join(urllist)
             print url
@@ -45,13 +45,13 @@ class ShuangGongshi(threading.Thread):
                     pass
 
             for x in list:
-                db.chufaid.insert({"id": x})
+                db.chufaideid.insert({"id": x})
             print '------------->    ', page
 
 proxypool = []
 conn = pymongo.Connection("192.168.0.50", 27017)
 db = conn.xinyongzhejiang
-pagelist = [x for x in xrange(1, 1156)]
-for thr in xrange(2):
+pagelist = [x for x in xrange(1, 1172)]
+for thr in xrange(10):
     thread = ShuangGongshi()
     thread.start()

@@ -5,7 +5,7 @@ import time
 import config
 
 
-start_num = 4568398
+start_num = 20779685
 kwlist = []
 
 class compadd(threading.Thread):
