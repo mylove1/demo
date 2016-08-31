@@ -5,10 +5,21 @@
 '''
 import requests
 import re
-
-class FuJianAnalyze():
-    def __init__(self, url):
-        self.url = url
+import time
+class HeNanAnalyze():
+    def __init__(self, id):
+        self.id = id
+        self.url = 'http://222.143.24.157/businessPublicity.jspx?id=' + id + '&sourceType=1'
+        self.qiyegongshiurl = 'http://222.143.24.157/enterprisePublicity.jspx?id=' + id
+        self.headers = {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, sdch',
+            'Accept-Language': 'zh-CN,zh;q=0.8',
+            'Connection': 'keep-alive',
+            'Host': '222.143.24.157',
+            'Upgrade-Insecure-Requests': '1',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36',
+        }
 
     def delcss(self, html):
         li = {
@@ -21,6 +32,7 @@ class FuJianAnalyze():
             "<table.*?>": "<table>",
             "<div.*?>": "<div>",
             "<!--.*?-->": "",
+            u"主要人员信息</th></tr>": u"主要人员信息</th><tr>"
 
         }
         for x in li.keys():
@@ -34,7 +46,11 @@ class FuJianAnalyze():
         return html
 
     def gethtml(self, url):
-        return requests.get(url).text
+        while 1:
+            try:
+                return requests.get(url).text
+            except:
+                continue
 
     def pair(self, html):
         return re.findall('<th>(.*?)</th><td>(.*?)</td>', html)
@@ -44,6 +60,7 @@ class FuJianAnalyze():
 
     def table(self, html):
         # print html
+
         table = []
         '''
         页面中有两种表，这是第二种的解析
@@ -131,6 +148,7 @@ class FuJianAnalyze():
 
         # 获取表格的列数
         lenth = len(head_list)
+
         for x in body_list:
             this_dict = {}
             for enu in range(lenth):
@@ -144,6 +162,7 @@ class FuJianAnalyze():
                 continue
             else:
                 table.append(this_dict)
+
         return table
 
     def print_dict(self, this_dict):
@@ -174,77 +193,94 @@ class FuJianAnalyze():
             baseinfo[x[0]] = x[1]
         return baseinfo
 
-    def tableinfo(self, compinfo, table_dict, html):
+    def tableinfo(self, dic, table_dict, html):
         # 对table_dict进行处理，以键为compinfo的键插入compinfo
         for x in table_dict.keys():
-            compinfo[x] = self.table(self.chapter(table_dict[x], html))
+            dic[x] = self.table(self.chapter(table_dict[x], html))
+            # print '1'
             # 测试打印
             # self.print_table(compinfo[x])
-        return compinfo
+
+        return dic
 
     def annual(self, nianbao_list):
         nianbao = {}
         for this_year_list in nianbao_list:
-            this_yesr = this_year_list[1]
-            this_html = self.delcss(self.gethtml(this_year_list[0]))
+            this_year = this_year_list[1]
+            this_html = self.delcss(self.gethtml(url = 'http://222.143.24.157' + this_year_list[0]))
             this_html = ''.join(this_html.split())
-            nianbao[this_yesr] = {}
+            nianbao[this_year] = {}
 
             table_dict = {
-                u"网站或网店信息": u'网站或网店信息</th>(.*?)/table>',
-                u"股东及出资信息": u'股东及出资信息（币种与注册资本一致）</th>(.*?)</table>',
-                u"对外投资": u'对外投资信息</th>(.*?)</table>',
-                u"对外提供保证担保信息": u'对外提供保证担保信息</th>(.*?)</table>',
-                u"股权变更信息": u'股权变更信息</th>(.*?)</table>',
-                u"修改记录": u'修改记录</th>(.*?)table>',
+                u"网站或网店信息": u'网站或网店信息</th></tr>(.*?)</th></tr></table>',
+                u"股东及出资信息": u'股东及出资信息(.*?)</th></tr></table>',
+                u"对外投资": u'对外投资信息</th></tr>(.*?)</th></tr></table>',
+                # u"对外提供保证担保信息": u'对外提供保证担保信息</th></tr>(.*?)</th></tr></table>',
+                u"股权变更信息": u'股权变更信息</th></tr>(.*?)</th></tr></table>',
+                u"修改记录": u'修改记录</th></tr>(.*?)</th></tr></table>',
             }
+
             # 加入各种表里的信息
-            this_year_dict = {}
-            nianbao[this_yesr] = self.tableinfo(this_year_dict, table_dict, this_html)
+            a = {}
+            a = self.tableinfo(a, table_dict, this_html)
+            nianbao[this_year] = a
             # 加入企业基本信息
-            nianbao[this_yesr][u"基本信息"] = self.baseinfo(u'企业基本信息</th>(.*?)table', this_html)
-            nianbao[this_yesr][u"企业资产状况信息"] = self.baseinfo(u'企业资产状况信息</th>(.*?)table', this_html)
+
+            nianbao[this_year][u"基本信息"] = self.baseinfo(u'企业基本信息</th></tr>(.*?)table', this_html)
+            nianbao[this_year][u"企业资产状况信息"] = self.baseinfo(u'企业资产状况信息</th></tr>(.*?)table', this_html)
         return nianbao
 
     def run(self):
         # 初始化公司信息为字典
         compinfo = {}
-        html = self.delcss(self.gethtml(self.url))
+        html = self.gethtml(self.url)
         html = ''.join(html.split())
-        html = self.dealwith(['<br>', ], html)
+        html = self.delcss(html)
+
+        html = self.dealwith(['<br>', '<br/>'], html)
 
         # 获取页面中的基本信息键值对
         # for x in self.pair(self.chapter(u'<th>基本信息</th>(.*?)table', html)):
         #     # if '<' in x[0] or '>' in x[0]: continue
         #     print x[0], x[1]
-        compinfo[u"基本信息"] = self.baseinfo(u'<th>基本信息</th>(.*?)table', html)
+        compinfo[u"基本信息"] = self.baseinfo(u'基本信息</th>(.*?)table', html)
+        compinfo[u"清算信息"] = self.baseinfo(u'清算信息</th>(.*?)table', html)
 
         # 获取页面中的表信息，
         # table_dict字典中键为信息的键，值为获取这部分信息的正则
-        table_dict = {
-            u"高管信息": u'主要人员信息</th>(.*?)</th></tr></table>',
-            u"股东信息": u'股东信息<br/>(.*?)</th></tr></table>',
-            u"对外投资": u'分支机构信息(.*?)</th></tr></table>',
-            u"变更信息": u'变更信息</th>(.*?)</th></tr></table>',
-            u"经营异常": u'经营异常信息</th>(.*?)</th></tr></table>',
-            u"行政处罚": u'行政处罚信息</th>(.*?)</th></tr></table>',
-            u"抽查检查": u'抽查检查信息</th>(.*?)</th></tr></table>',
-            u"动产抵押": u'动产抵押登记信息</th>(.*?)</th></tr></table>',
-            u"股权出质": u'股权出质登记信息</th>(.*?)</th></tr></table>',
-            u"严重违法": u'严重违法信息</th>(.*?)</th></tr></table>'
-        }
-        compinfo = self.tableinfo(compinfo, table_dict, html)
 
-        # 二：企业公示信息
-        html_qiyegongshi = ''.join(self.gethtml(self.url.replace('tab=01', 'tab=02')).split())
-        nianbao_list = re.findall(u'href="(http://wsgs\.fjaic\.gov\.cn/creditpub/notice/view_annual.*?)"target="_blank">(.*?)年度报告', html_qiyegongshi)
 
-        # 企业年报信息
-        compinfo[u"企业年报"] = self.annual(nianbao_list)
+        # # 二：企业公示信息
+        if u"个体工商户公示信息" not in html:
+            table_dict = {
+                u"高管信息": u'主要人员信息</th>(.*?)</th></table>',  #
+                u"股东信息": u'股东信息</th>(.*?)</th></table>',  #
+                u"对外投资": u'分支机构信息</th>(.*?)</th></table>',
+                u"变更信息": u'变更信息</th>(.*?)</table></div><div>',  #
+                u"经营异常": u'经营异常信息</th>(.*?)</table></div></div>',  #
+                u"行政处罚": u'行政处罚信息</th>(.*?)</table></div></div>',
+                u"动产抵押": u'动产抵押登记信息</th>(.*?)</table></div></div>',
+                u"股权出质": u'股权出质登记信息</th>(.*?)</table></div></div>',
+                u"严重违法": u'严重违法信息</th>(.*?)</table></div></div>'
+            }
+            compinfo = self.tableinfo(compinfo, table_dict, html)
+
+
+            html_qiyegongshi = ''.join(self.gethtml(self.qiyegongshiurl).split())
+            nianbao_list = re.findall(u'href="(/QueryYearExamineDetail\.jspx.*?)"target="_blank">(.*?)年度报告', html_qiyegongshi)
+            #
+            # # 企业年报信息
+            compinfo[u"企业年报"] = self.annual(nianbao_list)
+        else:
+            table_dict = {
+                u"高管信息": u'参加经营的家庭成员姓名</th>(.*?)</table></div><div>',  #
+                u"变更信息": u'变更信息</th>(.*?)</table></div><div>',  #
+                u"经营异常": u'经营异常信息</th>(.*?)</th></table><table>',  #
+                u"行政处罚": u'行政处罚信息</th>(.*?)</table></div></div>',
+                u"动产抵押": u'动产抵押登记信息</th>(.*?)</table></div></div>',
+            }
+            compinfo = self.tableinfo(compinfo, table_dict, html)
         return compinfo
-
-
-
 
         # print compinfo
         # self.print_dict(compinfo)
@@ -284,7 +320,7 @@ if __name__ == '__main__':
     # url = 'http://wsgs.fjaic.gov.cn/creditpub/notice/view?uuid=25z1mCH6cgjbR.NOXANO.w.i33STy5xX&tab=01'
     url = 'http://wsgs.fjaic.gov.cn/creditpub/notice/view?uuid=np2zjUZkeytc8wbZIiCjNzgSjSF60hHp&tab=01'
     url = 'http://wsgs.fjaic.gov.cn/creditpub/notice/view?uuid=25z1mCH6cgjbR.NOXANO.w.i33STy5xX&tab=01'
-    url = 'http://wsgs.fjaic.gov.cn/creditpub/notice/view?uuid=HTH0SAg65nDwGcPYkF5nvhNgm..B.EX6&tab=01'
-    url = 'http://222.143.24.157/businessPublicity.jspx?id=3B407B92F52FD5C4E053050A080ACEC2&sourceType=1'
-    a = FuJianAnalyze(url)
+    id = '33D1559F7E785FA4E053050A080AED3E'
+    id = '3B4232F6F5B7DF07E053050A080AA31E'
+    a = HeNanAnalyze(id)
     print a.info()
