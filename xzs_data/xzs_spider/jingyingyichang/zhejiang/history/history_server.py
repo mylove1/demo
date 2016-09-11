@@ -30,6 +30,7 @@ def post_comp():
     a = request.form["comp"]
     # a = json.loads(a)
     db.chufa.insert({'comp': eval(a)})
+    return 'ok'
 
 
 if __name__ == '__main__':
@@ -37,7 +38,7 @@ if __name__ == '__main__':
     kwlist = []
     conn = pymongo.Connection('192.168.0.50', 27017)
     db = conn.xinyongzhejiang
-    for x in db.chufaid.find():
+    for x in db.chufaideid.find():
         kwlist.append(x["id"])
 
     app.run("192.168.0.50", port=12111)

@@ -22,12 +22,13 @@ class SearchBox(threading.Thread):
                 continue
             try:
                 r = requests.get(url, proxies={'http': proxy}, timeout=5)
-                if len(r.text) > 1000:
+                # print r.text
+                if u'<title>信用浙江</title>' in r.text:
                     break
             except:
                 print '.'
                 pass
-        return r.text
+        return ''.join(r.text.strip())
 
 
 
@@ -50,15 +51,24 @@ class SearchBox(threading.Thread):
             print key
             if key == '000': break
             url = "http://www.zjcredit.gov.cn/sgs/sgsDetail.do?id=%s" % key
-            print url
+            # print url
             html = self.gethtml(url)
-            print '---', html[:30], '-------'
-            print html
+            # print '---', html[:30], '-------'
+            # print html
             tree = etree.HTML(html)
             li = tree.xpath('//table[@class="listf4"]/tr[2]/td/table/tr/td/text()')
-            print len(li)
+            # print len(li)
+            for x in range(len(li)):
+                # print li[x]
+                li[x] = ''.join(li[x].split())
             # try:
-            dic = {"id": "id", "title": li[0], "bookid": li[2], "company": li[4], "bumen": li[7], "data": li[9], "info": li[12]}
+            if len(li) == 11:
+                dic = {"id": "id", "title": li[0], "bookid": li[2], "company": li[4], "bumen": li[6], "data": li[8], "info": li[10]}
+            elif len(li) == 12:
+                dic = {"id": "id", "title": li[0], "bookid": li[2], "company": li[4], "bumen": li[6], "data": li[8], "info": li[11]}
+            else :
+                continue
+                # dic = {"id": "id", "title": li[0], "bookid": li[2], "company": li[4], "bumen": li[6], "data": li[8], "info": li[11]}
             this_dict = str(dic)
             self.put_mess({"comp": this_dict})
             # except:
@@ -66,7 +76,7 @@ class SearchBox(threading.Thread):
 
 
 def main():
-    for x in xrange(1):
+    for x in xrange(5):
         thread = SearchBox()
         thread.start()
 

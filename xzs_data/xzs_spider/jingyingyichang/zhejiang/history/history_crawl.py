@@ -2,6 +2,7 @@
 import re
 import requests
 import pymongo
+import time
 import threading
 
 
@@ -18,6 +19,7 @@ class ShuangGongshi(threading.Thread):
 
     def run(self):
         while True:
+            time.sleep(2)
             try:
                 page = pagelist.pop(0)
                 print page
@@ -27,19 +29,24 @@ class ShuangGongshi(threading.Thread):
                        str(1 + (1000 * (page - 1))),
                        "&endrecord=",
                        str(page * 1000),
-                       "&perpage=8&totalRecord=1155093"]
+                       "&perpage=8&totalRecord=1172388"]
             url = ''.join(urllist)
             print url
             while 1:
                 try:
+                    # try:
+                    #     proxy = proxypool.pop(0)
+                    # except:
+                    #     proxypool.extend(requests.get("http://192.168.0.50:8384/ip/100").text.split())
+                    #     continue
                     try:
-                        proxy = proxypool.pop(0)
+                        proxy = requests.get("http://192.168.0.50:8384/ip").text
                     except:
-                        proxypool.extend(requests.get("http://192.168.0.50:8384/ip/100").text.split())
+                        # proxypool.extend(requests.get("http://192.168.0.50:8384/ip/100").text.split())
                         continue
                     r = requests.post(url, headers=self.headers, data=self.data, timeout=7, proxies={"http":proxy})
                     list = self.rea.findall(r.text)
-                    if len(list) > 500: break
+                    if len(list) > 100: break
                 except:
                     print '---'
                     pass
@@ -48,10 +55,10 @@ class ShuangGongshi(threading.Thread):
                 db.chufaideid.insert({"id": x})
             print '------------->    ', page
 
-proxypool = []
+# proxypool = []
 conn = pymongo.Connection("192.168.0.50", 27017)
 db = conn.xinyongzhejiang
-pagelist = [x for x in xrange(1, 1172)]
-for thr in xrange(10):
+pagelist = [x for x in xrange(21, 1173)]
+for thr in xrange(1):
     thread = ShuangGongshi()
     thread.start()

@@ -2,30 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/demo_mysql/test_mysql_mongo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/test_pybloom/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/test_pybloom/testsqlmongo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/master_complist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/master_complist/complistadd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/master_complist/master_complist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist/infocrawl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist/sliver_complist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_zuzhijigoudaima.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/henan_run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/infopage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/test/testgetnianbao.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/henan/spiders/henan_spider.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/all_shengshi_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_zhengli.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_alter_table.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_tofile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/xizhi_info/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/xizhi_info/xizhi_info_sql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test_crawl_history.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.bat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py" afterPath="$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/pageindex.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/pageindex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_infopage.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_infopage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +46,40 @@
     <favorites_list name="demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="history_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding>
+                <element signature="e#15#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historyadd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="history_sliver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1564">
+              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,21 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/sliver_wenshu/sliver_wenshu.py" />
-        <option value="$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/test.py" />
-        <option value="$PROJECT_DIR$/xzscredit/creditchina/creditchina_crawl.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py" />
-        <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/image.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/test.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/test_re.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_complist.py" />
@@ -86,14 +105,11 @@
         <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/complistadd.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
         <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py" />
         <option value="$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py" />
         <option value="$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py" />
         <option value="$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_search_post.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/infopage.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test.py" />
@@ -103,7 +119,6 @@
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_infopage.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_zuzhijigoudaima.py" />
-        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/test/testgetnianbao.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/henan_run.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/infopage.py" />
@@ -111,6 +126,25 @@
         <option value="$PROJECT_DIR$/python/test_pybloom/testsqlmongo.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist/infotest.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist/sliver_complist.py" />
+        <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
+        <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/xizhi_info/xizhi_info_sql.py" />
+        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+        <option value="$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_tofile.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_alter_table.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test_crawl_history.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/all_shengshi_file.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan.txt" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_zhengli.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
       </list>
     </option>
   </component>
@@ -163,256 +197,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xinyonggongshi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xinyonggongshi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fujian" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingyingyichang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingyingyichang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditchina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingyingyichang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditchina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yichang_crawl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingyingyichang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditchina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yichang_crawl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sliver_complist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jingyingyichang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="creditchina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yichang_crawl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master_complist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -422,103 +207,103 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\demo\xzscredit\xizhi\test" />
-      <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\sliver_complist" />
-      <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\master_complist" />
-      <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\zhejiang\history" />
-      <recent name="E:\git\demo\python\sequence_demo\myself" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzs_data\datamigration\test" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\yichang_crawl" />
       <recent name="E:\git\demo\xzscredit\xinyonggongshi\henan" />
       <recent name="E:\git\demo\xzscredit\xinyonggongshi\fujian" />
       <recent name="E:\git\demo\xzscredit\xizhi\master_xizhi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzs_data\datamigration\test\dengjijiguan_shengshi" />
+      <recent name="E:\git\demo\xzscredit\xizhi\test" />
+      <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\sliver_complist" />
       <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\complist\master_complist" />
+      <recent name="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\zhejiang\history" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.infotest">
-    <configuration default="false" name="henan_run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.history_sliver">
+    <configuration default="false" name="dengjijiguanfile_shengshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/henan_run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="infopage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="get_all_sheng_shi_xian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/infopage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_mysql_mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test_a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/demo_mysql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/demo_mysql/test_mysql_mongo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="testsqlmongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="dengjijiguanfile_zhengli" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/test_pybloom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/test_pybloom/testsqlmongo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_zhengli.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="infotest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="history_sliver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/yichang_crawl/sliver_complist" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="E:\git\demo\xzs_data\xzs_spider\jingyingyichang\creditchina\yichang_crawl\sliver_complist\infocrawl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -658,19 +443,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.henan_run" />
-      <item index="1" class="java.lang.String" itemvalue="Python.infopage" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_mysql_mongo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.testsqlmongo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.infotest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dengjijiguanfile_shengshi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.get_all_sheng_shi_xian" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_a" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dengjijiguanfile_zhengli" />
+      <item index="4" class="java.lang.String" itemvalue="Python.history_sliver" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.infotest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testsqlmongo" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_mysql_mongo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.henan_run" />
-        <item index="4" class="java.lang.String" itemvalue="Python.infopage" />
+        <item index="0" class="java.lang.String" itemvalue="Python.history_sliver" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dengjijiguanfile_zhengli" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_a" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dengjijiguanfile_shengshi" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_all_sheng_shi_xian" />
       </list>
     </recent_temporary>
   </component>
@@ -818,25 +603,45 @@
       <option name="project" value="LOCAL" />
       <updated>1472467158956</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="信用中国，页面解析">
+      <created>1472621015572</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1472621015572</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17270789" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33991683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05597015" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282516" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4498934" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -861,7 +666,8 @@
     <MESSAGE value="信用中国&#10;" />
     <MESSAGE value="悉知&#10;" />
     <MESSAGE value="信用公示，页面解析" />
-    <option name="LAST_COMMIT_MESSAGE" value="信用公示，页面解析" />
+    <MESSAGE value="信用中国，页面解析" />
+    <option name="LAST_COMMIT_MESSAGE" value="信用中国，页面解析" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -873,294 +679,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/master_complist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/mastertest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test_aaa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/scrapy/commands/crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/scrapy/commands/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/spiders/Xizhi_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/shangbiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/sliver_complist/sliver_complist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/slivertest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="41" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/shangbiaojv/master_shangbiao/master_shangbiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/master_compweb/complistadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/master_compweb/master_compweb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-          <folding>
-            <element signature="e#16#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/test/test_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_search_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="e#15#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/pageindex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#15#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/test/test_zuzhijigoudaima.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/fujian/fujian_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/test/testgetnianbao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,10 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="289" column="18" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
-          <folding>
-            <element signature="e#98#9080#0" expanded="false" />
-            <element signature="e#1053#3292#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1179,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,10 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="277" column="68" selection-start-line="277" selection-start-column="68" selection-end-line="277" selection-end-column="68" />
-          <folding>
-            <element signature="e#44#59#0" expanded="true" />
-            <element signature="e#1882#4121#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,15 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1256,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="100" column="33" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-          <folding>
-            <element signature="e#81#96#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1266,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#1800#42414#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,6 +781,305 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/master_xizhi/master_xizhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="51" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/pymongo_demo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/demo_bianma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test_scrapy/wenshu/wenshu/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test_scrapy/shunqi/shunqi/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/t_gongsi_xizhi.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/test_scrapy/xizhi/xizhi/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="39" column="75" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/xizhi/sliver_xizhi/sliver_xizhi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_alter_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+          <folding>
+            <element signature="e#926#1414#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/xizhi_info/xizhi_info_sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info_tofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/all_shengshi_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1838">
+          <caret line="14994" column="18" selection-start-line="14994" selection-start-column="18" selection-end-line="14994" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/zhen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/xian.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/sheng.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="10971" column="0" selection-start-line="10971" selection-start-column="0" selection-end-line="10971" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#16#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_zhengli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test_crawl_history.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="14816" column="15" selection-start-line="14816" selection-start-column="15" selection-end-line="14816" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding />
         </state>
       </provider>
