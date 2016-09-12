@@ -1,9 +1,9 @@
 # coding:utf-8
 import urlparse
 
-base_url = "http://www.zhihu.com"
+base_url = "http://www.zhihu.com/index.php?username=guol"
 long_url = 'http://www.baidu.com/index.php?username=guol'
-
+s = '/sdfoijsd.html'
 
 
 url = urlparse.urlparse(long_url)   # 将long_url解析为6个部分
@@ -12,4 +12,4 @@ print(url)
 # print long_url
 
 url = urlparse.urljoin('http://222.143.24.157/businessPublicity.jspx','?id=3')
-print url
+print urlparse.urljoin(base_url, s)
