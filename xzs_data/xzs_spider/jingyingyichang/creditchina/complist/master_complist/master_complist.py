@@ -9,7 +9,7 @@ import pymongo
 from flask import Flask
 from flask import request
 import threading
-import complistadd
+# import complistadd
 
 app = Flask(__name__)
 
@@ -24,7 +24,7 @@ def hello():
 def get_comp():
     global getcomp
     getcomp += 1
-    db.totalcount.update({"name": "total"}, {"$inc": {"count": 1}})
+    # db.totalcount.update({"name": "total"}, {"$inc": {"count": 1}})
     return kwlist.pop(0)
 
 
@@ -32,20 +32,25 @@ def get_comp():
 def post_comp():
     a = request.form["comp"]
     a = json.loads(a)
-    db.complist.insert(a)
+    db.complist2.insert(a)
     return 'o'
 
 
 if __name__ == '__main__':
     MASTERIP = '192.168.0.50'
-    getcomp = complistadd.start
-
+    # getcomp = complistadd.start
+    getcomp = 0
     conn = pymongo.Connection(MASTERIP, 27017)
-    db = conn.creditchina
+
 
     # kwlist = ["平顶山市科远网络技术有限公司"]
     #
-    kwlist = complistadd.kwlist
+    db = conn.zhengli
+    def listf():
+        for x in db.comp_not_base.find():
+            yield x["comp"]
+    kwlist = [x for x in listf()]
+    db = conn.creditchina
 
 
     app.run(host=MASTERIP, port=12333)

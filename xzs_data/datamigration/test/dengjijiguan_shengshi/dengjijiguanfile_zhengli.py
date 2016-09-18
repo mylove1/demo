@@ -115,37 +115,37 @@ if __name__ == '__main__':
                     # print sheng_xian[0][0], '   ', sheng_xian[0][1]
                     continue
 
-                _shi = re_shi.findall(x)
-                if _shi:
-                    # print _shi[0]
-                    shengname = db.shi.find({"shiname": _shi[0]})
-                    # print shengname.count()
-                    if shengname.count() != 0:
-                        shengname = shengname[0]["shengname"]
-                        # print shengname, '   ', _shi[0]
-                    else :
-                        shengname = db.xian.find({"xianname": _shi[0]})
-                        if shengname.count() != 0:
-                            # print shengname[0]["shengname"], '   ', _shi[0]
-                            pass
-                        else:
-                            shengname = db.sheng.find({"shengname": _shi[0]})
-                            print _shi[0]
-                    # shengcode = db.sheng.find({"shengname": _sheng[0]})[0]["shengcode"]
-                    # shenghui = db.shi.find({"shicode": (shengcode + '0100000000')})[0]["shiname"]
-                    # print _sheng[0], '   ', shenghui
-                    continue
-                _shi_ = re_sheng_.findall(x)
-                if _shi_:
-                    # print x
-                    # re_this = re.compile(".*?" +_sheng_[0][1] + ".*?")
-                    # shiname = db.shi.find({"shiname": re_this})#[0]#["shiname"]
-                    # if shiname.count() != 0:
-                    #     print _sheng_[0][0], '   ', shiname[0]["shiname"]
-                    # else:
-                    #     shiname = db.xian.find({"xianname": re_this})#[0]#["shiname"]
-                    #     print _sheng_[0][0], '   ', shiname[0]["shiname"]
-                    continue
+                # _shi = re_shi.findall(x)
+                # if _shi:
+                #     # print _shi[0]
+                #     shengname = db.shi.find({"shiname": _shi[0]})
+                #     # print shengname.count()
+                #     if shengname.count() != 0:
+                #         shengname = shengname[0]["shengname"]
+                #         # print shengname, '   ', _shi[0]
+                #     else :
+                #         shengname = db.xian.find({"xianname": _shi[0]})
+                #         if shengname.count() != 0:
+                #             # print shengname[0]["shengname"], '   ', _shi[0]
+                #             pass
+                #         else:
+                #             shengname = db.sheng.find({"shengname": _shi[0]})
+                #             print _shi[0]
+                #     # shengcode = db.sheng.find({"shengname": _sheng[0]})[0]["shengcode"]
+                #     # shenghui = db.shi.find({"shicode": (shengcode + '0100000000')})[0]["shiname"]
+                #     # print _sheng[0], '   ', shenghui
+                #     continue
+                # _shi_ = re_sheng_.findall(x)
+                # if _shi_:
+                #     # print x
+                #     # re_this = re.compile(".*?" +_sheng_[0][1] + ".*?")
+                #     # shiname = db.shi.find({"shiname": re_this})#[0]#["shiname"]
+                #     # if shiname.count() != 0:
+                #     #     print _sheng_[0][0], '   ', shiname[0]["shiname"]
+                #     # else:
+                #     #     shiname = db.xian.find({"xianname": re_this})#[0]#["shiname"]
+                #     #     print _sheng_[0][0], '   ', shiname[0]["shiname"]
+                #     continue
 
                 # if "省" in x:
                 #     print x, '--------'
