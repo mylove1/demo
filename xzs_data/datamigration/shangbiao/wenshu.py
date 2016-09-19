@@ -1,6 +1,13 @@
 # coding:utf-8
 import MySQLdb
 import pymongo
+import sys
+reload(sys)
+try:
+    sys.setdefaultencoding("utf-8")
+except:
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
 
 DbConfig = {
     "user": "root",
@@ -17,25 +24,28 @@ cursor = conn.cursor()
 conn_mongo = pymongo.Connection(host='192.168.0.50', port=27017)
 db = conn_mongo.wenshu
 
-for enu,every in enumerate(db.wenshu.find()):
+for enu,everyone in enumerate(db.wenshu.find()):
     if enu % 1000 == 0:
         print enu
+        # break
     try:
-        if every[0] == history[0]:
-            company_id = history[1]
-            # print '0'
-        else:
-            getidsql = "select t_gongsi_id from t_gongsi where t_gongsi_mingzi='%s';" % every[0]
-            cursor.execute(getidsql)
-            company_id = cursor.fetchone()[0]
-            history[0] = every[0]
-            history[1] = company_id
-            # print '1'
-        # print company_id, every[0]
-        updatesql = 'insert into t_zscq_shangbiao(t_shangbiao_mingcheng, t_shangbiao_zhucehao, t_shangbiao_shenqingren, t_shangbiao_gongsi_id)values("%s", "%s", "%s", "%s");' %(every[3], every[1], every[0], company_id)
-        cursor.execute(updatesql)
+        # print everyone["comp"].keys()
+        # print everyone
+
+        getidsql = "select t_gongsi_id from t_gongsi where t_gongsi_mingzi='%s';" % everyone["comp"]["company"]
+        cursor.execute(getidsql)
+        company_id = cursor.fetchone()[0]
+        # print company_id
+        # print everyone["comp"]["count"]
+
+        for x in range(everyone["comp"]["count"]):
+            # print company_id, every[0]
+            DocContent = everyone["comp"]["wenshu"][x]["DocContent"].replace('&amp;#xA;', '').replace("'", '‘').replace(";", "；").replace('(', '（').replace(')', '）').replace('\\', '/')
+            updatesql = 'insert into t_fxxx_fayuanpanjue(t_fayuanpanjue_shijian, t_fayuanpanjue_jieguo, t_fayuanpanjue_wenjianlujing, t_fayuanpanjue_gongsi_id, t_fayuanpanjue_biaoti)values("%s", "%s", "%s", "%s", "%s");' %(everyone["comp"]["wenshu"][x][u"裁判日期"], everyone["comp"]["wenshu"][x][u"裁判要旨段原文"], DocContent, company_id, everyone["comp"]["wenshu"][x][u"案件名称"])
+            # print 'jjjj'
+            # print updatesql
+            cursor.execute(updatesql)
         conn.commit()
     except:
         continue
 conn.close()
-conn_sb.close()

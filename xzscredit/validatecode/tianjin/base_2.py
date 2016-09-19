@@ -51,8 +51,8 @@ for i in range(256):
 # image = Image.open("6+1.jpg")
 # image = Image.open("7+4.jpg")
 # image = Image.open("9+2.jpg")
-# image = Image.open("2x3.jpg")
-image = Image.open("2.jpg")
+image = Image.open("2x3.jpg")
+# image = Image.open("2.jpg")
 
 # 打印图片信息
 print image.size
@@ -67,8 +67,8 @@ image.thumbnail((100, 15))
 
 
 
-for x in range(1, 7):
-    for y in range(1, 7):
+for x in range(3, 10):
+    for y in range(36, 42):
         print image.getpixel((y, x)),
     print '\n'
 
@@ -102,8 +102,8 @@ for x in range(1, 7):
 # print v1, v2, v3
 
 # 图片分割
-# region = (5, 2,25, 22)
-# p1 = image.crop(region)
+region = (23,3, 29,10)
+p1 = image.crop(region)
 # p1 = p1.rotate(45)
 # p1 = p1.resize((100, 100), Image.ANTIALIAS)
 # print p1.size
@@ -126,5 +126,5 @@ for x in range(1, 7):
 # 用默认图片查看器打开图片
 
 image.show()
-# p1.show()
+p1.show()
 # p3.show()
