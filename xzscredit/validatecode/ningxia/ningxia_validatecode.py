@@ -24,7 +24,7 @@ def convert_image(image):
 
 
 def split(image):
-    region = [(6, 3, 12, 10), (23, 3, 29, 10), (36, 3, 42, 10)]
+    region = [(6, 3, 15, 11), (16, 3, 25, 11), (26, 3, 35, 11)]
     p1 = image.crop(region[0])
     p2 = image.crop(region[1])
     p3 = image.crop(region[2])
@@ -65,7 +65,7 @@ def distinguish(image, model):
 
 
 def compute(d1, d2, d3):
-    if d2 == 0:
+    if d2 == 10:
         return add(d1, d3)
     elif d2 == 11:
         return cheng(d1, d3)
@@ -95,12 +95,13 @@ def tianjin_dist(image, model):
 
 
 if __name__ == '__main__':
-    model = svm_load_model("tianjin.mo")
-    url = "http://tjcredit.gov.cn/verifycode?date=1474506700123"
+    model = svm_load_model("ningxia.mo")
+    url = "http://gsxt.ngsh.gov.cn/ECPS/verificationCode.jsp?_=1474534287596"
     r = urllib2.urlopen(url)
     data_stream = io.BytesIO(r.read())
     image = Image.open(data_stream)
+    image.show()
     # image = Image.open("C:/Users/cooper/Desktop/opp/ap/p/opp0.jpg")
 
     print tianjin_dist(image, model)
-    image.show()
+

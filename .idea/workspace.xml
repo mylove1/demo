@@ -2,54 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/demo_libsvm/one.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/liaoning/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning_validatecode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/get_jpg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia_validatecode.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/test_svm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/ningxia/to_train_file.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/datamigration/shangbiao/wenshu.py" afterPath="$PROJECT_DIR$/xzs_data/datamigration/shangbiao/wenshu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/1+4.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/1+4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/1x5.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/1x5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/2+8.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/2+8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/2x2.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/2x2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/2x3.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/2x3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/2x7.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/2x7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/3+9.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/3+9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/4+2.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/4+2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/5x9.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/5x9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/6+1.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/6+1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/7+4.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/7+4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/8x5.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/8x5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/9+2.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/9+2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/9+6.jpg" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/9+6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/__init__.py" afterPath="$PROJECT_DIR$/python/demo_libsvm/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/base_1.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/base_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/base_2.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/base_2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/天津/get_jpg.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/get_jpg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" afterPath="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,82 +38,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/base_2.py">
+      <file leaf-file-name="ningxia_validatecode.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia_validatecode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="to_train_file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_svm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tianjin_validatecode.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_jpg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/get_jpg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="one.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/demo_libsvm/one.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pic_spli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding>
-                <element signature="e#15#36#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -165,16 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_crawl.py" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/all_shengshi_file.py" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan.txt" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/historyadd.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_server.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/zhejiang/history/history_sliver.py" />
-        <option value="$PROJECT_DIR$/python/demo_mysql/corrent_comp_fil.py" />
         <option value="$PROJECT_DIR$/xzs_data/xzs_spider/tianyan_crawl/test_app.py" />
         <option value="$PROJECT_DIR$/python/demo_mysql/total_name.py" />
         <option value="$PROJECT_DIR$/xzscredit/tianyancha/searchbox/sliver_searchbox.py" />
@@ -212,10 +100,20 @@
         <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/test_svm.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/tianjin_code/tianjin_validatecode.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/get_jpg.py" />
+        <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
+        <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning_validatecode.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/tianjin_validatecode.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/get_jpg.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/to_train_file.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/test_svm.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia_validatecode.py" />
       </list>
     </option>
   </component>
@@ -266,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -364,6 +261,18 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzscredit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validatecode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ningxia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -375,7 +284,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
+              <option name="myItemId" value="xzscredit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validatecode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liaoning" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,30 +306,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
+              <option name="myItemId" value="xzscredit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo_libsvm" />
+              <option name="myItemId" value="validatecode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="just0_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="E:/" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzscredit\validatecode\ningxia" />
       <recent name="E:\git\demo\xzscredit\validatecode\tianjin\tianjin_code" />
       <recent name="E:\git\demo\xzscredit\validatecode\天津" />
       <recent name="E:\git\demo\xzscredit\validatecode\beijing" />
       <recent name="E:\git\demo\xzscredit\validatecode\study_base" />
-      <recent name="E:\git\demo\xzs_data\datamigration\shangbiao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git\demo\xzscredit\validatecode\天津" />
@@ -422,58 +355,7 @@
       <recent name="E:\git\demo\xzs_data\xzs_spider\youboy\sliver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tianjin_validatecode (1)">
-    <configuration default="false" name="tianjin_validatecode (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="to_train_file (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_svm (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ningxia_validatecode">
     <configuration default="false" name="get_jpg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -481,12 +363,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/get_jpg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/get_jpg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -498,12 +380,63 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="to_train_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/to_train_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_svm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/test_svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ningxia_validatecode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia_validatecode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -643,17 +576,17 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tianjin_validatecode (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.to_train_file (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_svm (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_jpg" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pic_spli" />
+      <item index="0" class="java.lang.String" itemvalue="Python.get_jpg" />
+      <item index="1" class="java.lang.String" itemvalue="Python.pic_spli" />
+      <item index="2" class="java.lang.String" itemvalue="Python.to_train_file" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_svm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ningxia_validatecode" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tianjin_validatecode (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_svm (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.to_train_file (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ningxia_validatecode" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_svm" />
+        <item index="2" class="java.lang.String" itemvalue="Python.to_train_file" />
         <item index="3" class="java.lang.String" itemvalue="Python.pic_spli" />
         <item index="4" class="java.lang.String" itemvalue="Python.get_jpg" />
       </list>
@@ -662,10 +595,10 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\cooper\AppData\Roaming\Subversion</configuration>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration useDefault="false">E:\SVN</configuration>
     <option name="sshConnectionType" value="PASSWORD" />
-    <option name="sshExecutablePath" value="https://192.168.0.121/svn/xinZhiShang/xzs_datacollect/trunk" />
+    <option name="sshExecutablePath" value="https://192.168.0.121/svn/xinZhiShang/xzs_datacollect" />
     <option name="sshUserName" value="cuidingyu" />
     <option name="sshPort" value="443" />
   </component>
@@ -831,23 +764,31 @@
       <option name="project" value="LOCAL" />
       <updated>1474195212221</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="验证码">
+      <created>1474281748901</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1474281748901</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41471216" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34541577" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116883" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -885,108 +826,15 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_shengshi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/get_all_sheng_shi_xian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguanfile_zhengli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2230">
-          <caret line="151" column="25" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/meizitu/master_meizi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/demo_mysql/corrent_comp_fil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/just0_9/test_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/just0_9/test_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#44#65#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/study_base/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/study_base/p1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/jingyingyichang/creditchina/complist/master_complist/complistadd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,26 +856,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/mycrawler-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/project/mycrawler-master/README.md" />
     <entry file="file://$PROJECT_DIR$/project/distribute_crawler-master/woaidu_crawler/logs/scrapy.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7866">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,9 +872,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="46">
             <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding>
-              <marker date="1375862960000" expanded="true" signature="2986:3313" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1052,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="167" column="46" selection-start-line="167" selection-start-column="46" selection-end-line="167" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,9 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#15#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,23 +1024,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/base_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/demo_libsvm/one.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,61 +1035,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/base_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin.mo">
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/wenshu/complistadd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/tezheng.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="897" column="0" selection-start-line="897" selection-start-column="0" selection-end-line="897" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1447">
+          <caret line="681" column="0" selection-start-line="681" selection-start-column="0" selection-end-line="681" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="1209" column="0" selection-start-line="1209" selection-start-column="0" selection-end-line="1210" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2323">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="161">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/just0_9/wenshucode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning_validatecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#15#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="436">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia.trainfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/to_train_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/get_jpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/test_svm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia_validatecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

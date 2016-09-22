@@ -18,7 +18,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     global getcomp
-    return '''<h4>已经抓取：%s</h4><h4>剩余数目：%s</h4>''' % (getcomp, 27107534-getcomp)
+    return '''<h4>已经抓取：%s</h4><h4>剩余数目：%s</h4>''' % (getcomp, 39000000-getcomp)
 
 
 @app.route('/comp')
@@ -40,7 +40,7 @@ def post_comp():
 
 
 if __name__ == '__main__':
-    getcomp = 25914522
+    getcomp = 27107535
 
     conn = pymongo.Connection(config.master, 27017)
     db = conn.wenshu.wenshu

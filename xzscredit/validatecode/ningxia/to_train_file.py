@@ -2,8 +2,8 @@
 import os
 from PIL import Image
 
-flist = [str(x) for x in range(1, 10)]
-flist.extend(["0", "11"])
+flist = [str(x) for x in range(12)]
+
 print flist
 
 def tezheng(image):
@@ -103,10 +103,10 @@ for i in range(256):
     else:
         table.append(1)
 
-with open("C:\Users\cooper\Desktop\smm", 'w') as f:
+with open("ningxia.trainfile", 'w') as f:
     for this_file in flist:
 
-        rootdir = os.path.join(r"C:\Users\cooper\Desktop\opp\sp", this_file)
+        rootdir = os.path.join(r"C:\Users\cooper\Desktop\opp\ningxia\p", this_file)
         print rootdir
         for parent, dirnames, filenames in os.walk(rootdir):
             for filename in filenames:

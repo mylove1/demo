@@ -3,9 +3,9 @@ from svmutil import *
 import os
 import time
 
-model_path = r"C:\Users\cooper\Desktop\s_model"
+model_path = r".\ningxia.mo"
 def train_svm_model():
-    y, x = svm_read_problem(r"C:\Users\cooper\Desktop\smm")
+    y, x = svm_read_problem(r".\ningxia.trainfile")
     model = svm_train(y, x)
     svm_save_model(model_path, model)
 train_svm_model()

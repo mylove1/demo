@@ -11,7 +11,7 @@ for i in range(256):
     else:
         table.append(1)
 
-path = 'C:\\Users\\cooper\\Desktop\\opp\\ap\\p'
+path = 'C:\\Users\\cooper\\Desktop\\opp\\ningxia'
 for x, y, z in os.walk(path):
     for w in z:
         fname = os.path.join(x, w)
@@ -24,8 +24,8 @@ for x, y, z in os.walk(path):
         # 图片缩放
         image.thumbnail((100, 15))
 
-        region = [(6, 3, 12, 10), (23, 3, 29, 10),(36, 3, 42, 10)]
+        region = [(6, 3, 15, 11), (16, 3, 25, 11), (26, 3, 35, 11)]
         for enu,regi in enumerate(region):
             p = image.crop(regi)
-            p.save(os.path.join("C:\\Users\\cooper\\Desktop\\opp\\ap\\s", str(time.time()) + str(enu) + ".jpg"), 'BMP')
+            p.save(os.path.join("C:\\Users\\cooper\\Desktop\\opp\\ningxia\\p", str(time.time()) + str(enu) + ".jpg"), 'BMP')
 
