@@ -1,17 +1,14 @@
 # coding:utf-8
 
 headers = '''
-Accept:*/*
-Accept-Encoding:gzip, deflate, sdch, br
+Accept:image/webp,image/*,*/*;q=0.8
+Accept-Encoding:gzip, deflate, sdch
 Accept-Language:zh-CN,zh;q=0.8
-Cache-Control:no-cache
 Connection:keep-alive
-Cookie:JSESSIONID=60D42694D98B4CB1A22D22F1FE7DFA97; BIGipServerotn=368050698.64545.0000; _jc_save_fromStation=%u5B89%u9633%2CAYF; _jc_save_toStation=%u5E7F%u5DDE%2CGZQ; _jc_save_fromDate=2016-10-03; _jc_save_wfdc_flag=dc
-Host:kyfw.12306.cn
-If-Modified-Since:0
-Referer:https://kyfw.12306.cn/otn/lcxxcx/init
+Cookie:JSESSIONID=D64EA66A81DC1C0C6EDADBBC1289D447; ROBOTCOOKIEID=23f9b3400417aeaa5b8f2caf5952794dcd27ab8d; SECSESSIONID=93d925b9d2436a0ef5a6382fad6915b8; CNZZDATA1000300906=314635445-1474529997-http%253A%252F%252F211.141.74.198%253A8081%252F%7C1474700656
+Host:211.141.74.198:8081
+Referer:http://211.141.74.198:8081/aiccips/
 User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
-X-Requested-With:XMLHttpRequest
 '''
 headers = headers.replace('\n', "',\n'")
 headers = headers.replace(':', "': '")
