@@ -27,7 +27,7 @@ if __name__ == '__main__':
     total_cun = 0
 
     conn = pymongo.Connection("192.168.0.50", 27017)
-    db = conn.xingzheng
+    db = conn.xingzhengquhua
 
     codelist = []
     url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html'
@@ -89,7 +89,7 @@ if __name__ == '__main__':
                         cuncode = cun[0]
                         db.cun.insert({"shengname": shengname, "shengcode": shengcode, "shiname": shiname, "shicode": shicode, "xianname": xianname, "xiancode": xiancode,
                                          "zhenname": zhenname, "zhencode": zhencode, "cunname": cunname, "cuncode": cuncode, "chengxiangtype": chengxiangtype})
-                    time.sleep(1)
+                    time.sleep(0.2)
                 print '-----------------------------', shengname, shiname, xianname
                 print "村", total_cun
                 print "-----镇", total_zhen

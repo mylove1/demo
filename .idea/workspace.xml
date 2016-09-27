@@ -2,36 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/0101.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/0102.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/0103.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/0104.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/0105.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/011.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/012.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/013.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/014.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/015.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/beijing_validatecode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/create_dir.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/image_deal_with.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/pic_spli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/test_svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/to_train_file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/get_jpg.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/validatecode/shanxi/image_deal_with.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xzscredit/validatecode/beijing/im_deal_with.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/compinfo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/backup/proxy.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/db_init.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_check.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_web.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/xingzhengquhua/test.py" afterPath="$PROJECT_DIR$/project/xingzhengquhua/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/beijing/get_jpg.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/beijing/get_jpg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,33 +38,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="image_deal_with.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py">
+      <file leaf-file-name="proxyip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pic_spli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="207">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="e#15#36#0" expanded="true" />
+                <element signature="e#15#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_jpg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/get_jpg.py">
+      <file leaf-file-name="tools.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+              <folding>
+                <element signature="e#16#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ip_check.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_check.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+              <folding>
+                <element signature="e#15#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ip_web.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -99,20 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/get_jpg.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/pic_spli.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/to_train_file.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/test_svm.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/天津/tianjin_code/tianjin_validatecode.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/get_jpg.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/complistadd.py" />
-        <option value="$PROJECT_DIR$/xzscredit/wenshu/master_wenshu.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/pic_spli.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/to_train_file.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/test_svm.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/tianjin/tianjin_code/tianjin_validatecode.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/liaoning/liaoning_validatecode.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/tianjin_validatecode.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/get_jpg.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/to_train_file.py" />
@@ -128,7 +138,6 @@
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im_split_to_file/create_dir.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/to_train_file.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/test_svm.py" />
-        <option value="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/create_dir.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/chongqing/test_svm.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/pic_spli.py" />
@@ -145,11 +154,26 @@
         <option value="$PROJECT_DIR$/xzscredit/validatecode/beijing/beijing_validatecode.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/beijing/get_jpg.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/shanxi/image_deal_with.py" />
-        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jilin/get_jpg.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py" />
         <option value="$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py" />
+        <option value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+        <option value="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" />
+        <option value="$PROJECT_DIR$/project/xingzhengquhua/test.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tool/tool_ip_test.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tool.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/app.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/README.md" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/config.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_web.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/db_init.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_check.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py" />
       </list>
     </option>
   </component>
@@ -258,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ningxia" />
+              <option name="myItemId" value="jiangsu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,51 +304,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jilin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validatecode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chongqing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzscredit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validatecode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chongqing" />
+              <option name="myItemId" value="jiangsu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -339,6 +319,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzscredit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="validatecode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beijing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xzs_spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compinfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,6 +402,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqlite_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqlite_demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -369,102 +465,102 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_ip\backup" />
+      <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_ip" />
       <recent name="E:\git\demo\xzscredit\validatecode\jilin" />
       <recent name="E:\git\demo\xzscredit\validatecode\shanxi" />
       <recent name="E:\git\demo\xzscredit\validatecode\beijing" />
-      <recent name="E:\git\demo\xzscredit\validatecode\chongqing\im" />
-      <recent name="E:\git\demo\xzscredit\validatecode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\demo\xzs_data\xzs_spider\xzs_proxy_ip\tool" />
       <recent name="E:\git\demo\xzscredit\validatecode\jiangsu\im_split_to_file" />
       <recent name="E:\git\demo\xzscredit\validatecode\天津" />
       <recent name="E:\git\demo\xzscredit\validatecode\beijing" />
       <recent name="E:\git\demo\xzscredit\validatecode\study_base" />
-      <recent name="E:\git\demo\xzs_data\xzs_spider\youboy\master" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.image_deal_with (1)">
-    <configuration default="false" name="image_deal_with" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test (1)">
+    <configuration default="false" name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/shanxi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/shanxi/image_deal_with.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="image_deal_with (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/jilin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="get_jpg (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="db_init" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/jilin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/jilin/get_jpg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/db_init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="trun_headers_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="crawl" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/trun_headers_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="pic_spli" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="proxyip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/validatecode/jilin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -604,19 +700,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.image_deal_with" />
-      <item index="1" class="java.lang.String" itemvalue="Python.image_deal_with (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.get_jpg (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pic_spli" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tools" />
+      <item index="2" class="java.lang.String" itemvalue="Python.db_init" />
+      <item index="3" class="java.lang.String" itemvalue="Python.crawl" />
+      <item index="4" class="java.lang.String" itemvalue="Python.proxyip" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.image_deal_with (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pic_spli" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_jpg (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.trun_headers_demo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.image_deal_with" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db_init" />
+        <item index="2" class="java.lang.String" itemvalue="Python.proxyip" />
+        <item index="3" class="java.lang.String" itemvalue="Python.crawl" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tools" />
       </list>
     </recent_temporary>
   </component>
@@ -820,7 +916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474627576276</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="验证码">
+      <created>1474705226577</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1474705226577</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -832,9 +935,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40584415" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20095949" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36460555" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -880,194 +983,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/demo_mysql/demo_first.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/demo_mysql/test_mysql_mongo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/demo_mysql/total_name.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/t_gongsi_xizhi.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/xizhi_info/xizhi_info_sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/xizhi_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="35" />
-          <folding>
-            <element signature="e#15#29#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test/test_a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/https_demo/https_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="e#15#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im/003.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im/35.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im/001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im/949.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im_split_to_file/create_dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu.trainfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/to_train_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im_split_to_file/pic_spli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#15#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/test_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im_split_to_file/get_jpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im/0001.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im/0002.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/create_dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia.mo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/test_svm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/ningxia.trainfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/chongqing.trainfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/test_svm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1089,24 +1004,6 @@
         <state relative-caret-position="182">
           <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/get_jpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,14 +1089,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/beijing/get_jpg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/beijing/pic_spli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1226,18 +1115,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/ningxia/pic_spli.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#15#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/pic_spli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding>
             <element signature="e#15#36#0" expanded="false" />
           </folding>
@@ -1252,29 +1159,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/pic_spli.py">
+    <entry file="file://$PROJECT_DIR$/project/xingzhengquhua/code.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="51" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/pic_spli.py">
+    <entry file="file://$PROJECT_DIR$/project/xingzhengquhua/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="299">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/trun_headers_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tool/tool_ip_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tool/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/iptest/ip_new_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/chongqing/im_split_to_file/get_jpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/im_split_to_file/get_jpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/beijing/get_jpg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="95" selection-end-column="16" />
           <folding>
-            <element signature="e#15#36#0" expanded="true" />
+            <element signature="e#15#36#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzscredit/validatecode/jilin/image_deal_with.py">
+    <entry file="file://$PROJECT_DIR$/xzscredit/compweb/sliver_compweb/sliver_compweb_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/data/proxy.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4071">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/sqlite_demo/notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/backup/proxy.db">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/iptest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/ipcrawl/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_pool/proxy_app/ip_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/db_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

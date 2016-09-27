@@ -69,14 +69,28 @@ def tianjin_dist(image, model):
     d4 = distinguish(p4, model)
     d5 = distinguish(p5, model)
     d6 = distinguish(p6, model)
-    return [chr(d1), chr(d2), chr(d3), chr(d4), chr(d5), chr(d6)]
+    return [chr(int(d1)), chr(int(d2)), chr(int(d3)), chr(int(d4)), chr(int(d5)), chr(int(d6)), ]
 
 
 if __name__ == '__main__':
-    model = svm_load_model("jiangsu.mo")
-    url = "http://www.jsgsj.gov.cn:58888/province/rand_img.jsp?type=7&temp=Fri%20Sep%2023%202016%2008:34:36%20GMT+0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)"
 
-    r = urllib2.urlopen(url)
+    headers = {
+        'Accept': 'image/webp,image/*,*/*;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, sdch',
+        'Accept-Language': 'zh-CN,zh;q=0.8',
+        'Connection': 'keep-alive',
+        'Host': 'www.jsgsj.gov.cn:58888',
+        'Referer': 'http://www.jsgsj.gov.cn:58888/province/',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+    }
+    model = svm_load_model("jiangsu.mo")
+    url = "http://www.jsgsj.gov.cn:58888/province/rand_img.jsp?type=7&temp=Mon%20Sep%2026%202016%2009:11:54%20GMT+0800%20(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)"
+
+    req = urllib2.Request(
+        url = url,
+        headers = headers
+    )
+    r = urllib2.urlopen(req)
     data_stream = io.BytesIO(r.read())
     image = Image.open(data_stream)
     image.show()
