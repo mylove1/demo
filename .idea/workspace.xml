@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/compinfo/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/backup/proxy.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/crawl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/db_init.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_check.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/ip_web.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/proxyip.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xzs_spider/xzs_proxy_ip/tools.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/xingzhengquhua/test.py" afterPath="$PROJECT_DIR$/project/xingzhengquhua/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" afterPath="$PROJECT_DIR$/xzscredit/validatecode/jiangsu/jiangsu_validatecode.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -923,7 +908,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474705226577</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="验证码">
+      <created>1474970597067</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1474970597067</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
