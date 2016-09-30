@@ -17,12 +17,12 @@ class compadd(threading.Thread):
 
     def run(self):
         while 1:
-            if len(kwlist) <= 1000:
+            if len(kwlist) <= 10000:
                 global a, start_num
                 a = start_num
                 b = a + 99999
-                if b >= 27107534:
-                    b = 27107534
+                if b >= 39000000:
+                    b = 39000000
                 try:
                     conn = MySQLdb.connect(host=MASTERIP, user='root', passwd='dingyu', db='dingyu', port=3306,
                                            charset="utf8")
@@ -33,7 +33,7 @@ class compadd(threading.Thread):
                     start_num += 100000
                 finally:
                     conn.close()
-                if b == 27107534:
+                if b == 39000000:
                     break
                 time.sleep(200)
             else:
