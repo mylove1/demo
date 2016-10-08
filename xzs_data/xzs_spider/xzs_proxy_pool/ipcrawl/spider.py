@@ -99,7 +99,7 @@ if __name__ == '__main__':
     mongoPORT = config.MONGOPORT
     # 连接mongo数据库，把数据库中已经有的IP放入过滤器
     db = link_mongo()
-    f = pybloom.BloomFilter(capacity=100000, error_rate=0.0001)
+    f = pybloom.BloomFilter(capacity=300000, error_rate=0.0001)
     for x in db.bigpool.find():
         f.add(x["ip"])
 
