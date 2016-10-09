@@ -34,7 +34,7 @@ if __name__ == '__main__':
     conn_targ = MySQLdb.connect(user="root", passwd="dingyu", db="xzs",
                            host="192.168.0.156", charset='utf8', use_unicode=True)
     cursor_targ = conn_targ.cursor()
-    cursor_sour.execute('select t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi from t_gongsi where t_gongsi_id > 2000 and t_gongsi_id < 2500;')
+    cursor_sour.execute('select t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi from t_gongsi where t_gongsi_id < 100000;')
     L = []
     datalist = cursor_sour.fetchall()
 
@@ -43,26 +43,18 @@ if __name__ == '__main__':
         if enu % 1000 == 0:
             print time.clock()
             print enu
-        print every
-        every = list(every)
-
-        # every[7] = every[7].strftime("%Y-%m-%d")
-        # every[10] = every[10].strftime("%Y-%m-%d")
-        # every[14] = every[14].strftime("%Y-%m-%d")
-
-
         L.append(list(every))
 
         if enu % 1000 == 0:
             # try:
-                print L
-                cursor_targ.executemany('insert into t_gongsi(t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi)values("%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s");', L)
+                cursor_targ.executemany('insert into t_gongsi(t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi)values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', L)
                 conn_targ.commit()
+                L = []
             # except:
             #     print 'xxx'
-                L = []
+
     try:
-        cursor_targ.executemany('insert into t_gongsi(t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi)values("%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s", "%s");', L)
+        cursor_targ.executemany('insert into t_gongsi(t_gongsi_id,t_gongsi_mingzi,t_gongsi_hangye,t_gongsi_img,t_gongsi_xinyongdaima,t_gongsi_jigoudaima,t_gongsi_zhucehao, t_gongsi_zhuceshijian, t_gongsi_jingyingzhuangtai, t_gongsi_leixing, t_gongsi_chengliriqi, t_gongsi_fadingren, t_gongsi_yingyeqixian, t_gongsi_zhuceziben, t_gongsi_fazhaoriqi, t_gongsi_dengjijiguan, t_gongsi_qiyedizhi, t_gongsi_dianhua, t_gongsi_jingyingfanwei, t_gongsi_youxiang, t_gongsi_touzigongsiid, t_gongsi_wangzhi, t_gongsi_sheng,t_gongsi_shi)values(%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);', L)
         conn_targ.commit()
     except:
         print 'xxx'

@@ -37,7 +37,7 @@ for enu,every in enumerate(shangbiaolist):
             history[1] = company_id
             # print '1'
         # print company_id, every[0]
-        updatesql = 'insert into t_zscq_zhuanlixinxi(t_zhuanlixinxi_leixing, t_zhuanlixinxi_shenqinghao, t_zhuanlixinxi_faburiqi, t_zhuanlixinxi_mingcheng, t_zhuanlixinxi_shenqingren, t_zhuanlixinxi_gongsi_id)values("%s", "%s", "%s", "%s", "%s", "%s");' %(every[2], every[1], every[4], every[3], every[0], company_id)
+        updatesql = 'insert into t_zscq_zhuanlixinxi(t_zhuanlixinxi_leixing, t_zhuanlixinxi_shenqinghao, t_zhuanlixinxi_faburiqi, t_zhuanlixinxi_mingcheng, t_zhuanlixinxi_shenqingren, t_zhuanlixinxi_gongsi_id)values("%s", "%s", "%s", "%s", "?%);' %(every[3], every[2], every[5], company_id)
         cursor.execute(updatesql)
         conn.commit()
     except:

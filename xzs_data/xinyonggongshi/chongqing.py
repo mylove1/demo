@@ -1,5 +1,6 @@
 #coding:utf-8
 from __init__ import Analyze
+from pprint import pprint
 import re
 import requests
 
@@ -14,9 +15,11 @@ class TianJinAnalyze(Analyze):
         else:
             print("Must input a company's id or name")
 
-        # self.dengjijinxi =
+        self.dengjijinxi =''
+
 
 
 if __name__ == '__main__':
-    a = TianJinAnalyze(id=33333)
-    print a.info
+    url = "http://gsxt.cqgs.gov.cn/search_getEnt.action?_c1475992115348=_c414255&entId=5001031201601141331706&id=500103008520659&stype=SAIC&type=1"
+    a = TianJinAnalyze(id=23)
+    pprint(a.info)
