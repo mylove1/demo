@@ -13,7 +13,7 @@ print start
 start_num = start
 kwlist = []
 
-ff = pybloom.BloomFilter(capacity=10000000, error_rate=0.0001)
+ff = pybloom.BloomFilter(capacity=40000000, error_rate=0.0001)
 
 
 class compadd(threading.Thread):
