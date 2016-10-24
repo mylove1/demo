@@ -4,16 +4,18 @@ import re
 
 
 def posthtml(page):
-    url = 'http://www.sgs.gov.cn/notice/search/ent_except_list'
-    data = {'captcha': '',
-            'condition.pageNo': page,
+    url = 'http://www.sgs.gov.cn/notice/search/ent_info_list'
+    data = {'searchType': '1',
+            'captcha': '-1',
             'condition.insType': '',
-            'condition.keyword': '莹达戈（上海）陶瓷国际贸易有限公司'}
+            'condition.keyword': u'上海宝冶集团有限公司',
+            'session.token': '8465d190-891a-44c4-9ece-1d9a1ff43ea4'}
     while 1:
         try:
             return requests.post(url, data=data).text
         except:
             continue
+
 for x in range(1, 2):
     html = posthtml(x)
     print html

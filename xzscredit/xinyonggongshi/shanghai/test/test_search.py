@@ -13,7 +13,7 @@ def posthtml(page):
     headers = {}
     while 1:
         try:
-            return requests.post(url, data=data)
+            return requests.post(url, data=data, veriy=False)
         except:
             continue
 for x in range(1, 2):#76367):

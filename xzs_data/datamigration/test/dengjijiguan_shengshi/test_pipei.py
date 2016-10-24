@@ -4,12 +4,37 @@
 import pymongo
 
 
+def gongsi_name2diqu(name):
+    repl = [
+        u"有限责任公司",
+        u"股份有限公司",
+        u"有限公司",
+        u"合作社",
+    ]
+
+    fen = [
+        u"营业部",
+        u"加油站",
+        u"分公司",
+        u"",
+    ]
+
+    if name[-3:] in fen:
+        if u"公司" in name:
+            name = name[name.find(u"公司") + 2:]
+
+    for x in repl:
+        name = name.replace(x, "")
+    print name
+    return name
+
+
 def pei(name, pipei):
+    name = gongsi_name2diqu(name)
     for x in range(1, len(name) - 1):
         if name[:-x] in pipei.keys():
             return {"key": name, "v": pipei[name[:-x]]}
-        else:
-            return {"key": "no", "v": "no"}
+
 
 
 
@@ -22,7 +47,7 @@ def load_pipei():
     return pipei
 
 if __name__ == '__main__':
-    name = u"浙江信至尚"
+    name = u"中国移动有限公司浙江杭州滨江营业部"
     pipei = load_pipei()
     diqu = pei(name, pipei)
     if diqu:

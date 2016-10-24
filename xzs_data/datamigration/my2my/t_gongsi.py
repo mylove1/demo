@@ -12,7 +12,7 @@ DbConfig = {
 DbTarg = {
     "user": "xinZhiShang",
     "passwd": "xzs123",
-    "host": "192.168.0.121",
+    "host": "117.78.224.46",
 }
 
 
@@ -61,7 +61,7 @@ if __name__ == '__main__':
     biaoshang = 0
     while biao <=40000000:
 
-        biao += 2000000
+        biao += 100000
         select_condition = "where t_gongsi_id > %s and t_gongsi_id <= %s" % (biaoshang, biao)
         biaoshang = biao
         # select_condition = ""
@@ -78,7 +78,7 @@ if __name__ == '__main__':
         insert_sql = ('insert into ' + table_sour + '(' + ','.join(row_list) + ')' +
                      ' values ' + '(' + (len(row_list)-1)*'%s,' + '%s' + ');')
 
-        print insert_sql
+        # print insert_sql
 
         # 分别连接两个数据库
         conn_sour = MySQLdb.connect(user=DbConfig['user'], passwd=DbConfig['passwd'], db="xzs",
@@ -108,7 +108,16 @@ if __name__ == '__main__':
                     conn_targ.commit()
                     L = []
                 # except:
-                #     print 'xxx'
+                #     print "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                #     for x in L:
+                #         try:
+                #             cursor_targ.executemany(insert_sql, [x])
+                #
+                #             print '-------------------------------------------->>>'
+                #         except:
+                #             "xxx"
+                #     conn_targ.commit()
+                #     L = []
 
         try:
             cursor_targ.executemany(insert_sql, L)
