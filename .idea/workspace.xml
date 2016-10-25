@@ -1,55 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="name-&gt;sheng\shi">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/demo_threading/test_lock.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/python/dow_music.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/insert_sheng_shi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/mo2my/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/_chongqing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/chongqing.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/chongqing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/chongqing_validatecode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/image_deal_with.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/name_id.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/test_post.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/every_dow/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/every_dow/chongqing.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/every_dow/chongqing_all_dow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/every_dow/chongqing_dow.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/get_id/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/get_id/chongqing_get_id.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/image_deal_with.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_validatecode.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/name_id.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/excel_data/zhengli_excel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/henan/test/test_post.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhixingren/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhixingren/baidu_zhixingren.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuzuoquan/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzscredit/zhuzuoquan/ruanjian_zhuzuoquan.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing.py" afterPath="" />
+    <list default="true" id="17b64374-6a9e-4419-a8f8-c67eb85c2c6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/comp_info_demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xzs_data/datamigration/mo2my/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/trun_headers_demo.py" afterPath="$PROJECT_DIR$/python/trun_headers_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py" afterPath="$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/datamigration/test/db_name_zhengli.py" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/db_name_zhengli.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/test_pipei.py" afterPath="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/test_pipei.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xinyonggongshi/__init__.py" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/excel_data/every_file.py" afterPath="$PROJECT_DIR$/xzscredit/excel_data/every_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" afterPath="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" afterPath="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py" afterPath="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py" />
     </list>
     <ignored path="demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,8 +42,8 @@
       <file leaf-file-name="jiangsu_down_all.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="e#38#72#0" expanded="true" />
               </folding>
@@ -94,23 +51,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compinfo_mo_my.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py">
+      <file leaf-file-name="comp_info_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/comp_info_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="161" column="19" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="19" />
               <folding>
-                <element signature="e#38#52#0" expanded="true" />
+                <element signature="e#1045#1227#0" expanded="false" />
+                <element signature="e#1055#1221#0" expanded="false" />
+                <element signature="e#1411#1472#0" expanded="false" />
+                <element signature="e#1421#1464#0" expanded="false" />
+                <element signature="e#1506#1773#0" expanded="false" />
+                <element signature="e#1512#1766#0" expanded="false" />
+                <element signature="e#1807#2159#0" expanded="false" />
+                <element signature="e#2193#2417#0" expanded="false" />
+                <element signature="e#2450#2612#0" expanded="false" />
+                <element signature="e#4702#5135#0" expanded="false" />
+                <element signature="e#5176#5412#0" expanded="false" />
+                <element signature="e#5454#5730#0" expanded="false" />
+                <element signature="e#5772#5946#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t_gongsi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py">
+      <file leaf-file-name="compinfo_mo_my.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+              <folding>
+                <element signature="e#38#52#0" expanded="true" />
+                <element signature="e#4508#4512#0" expanded="false" />
+                <element signature="e#4561#4759#0" expanded="false" />
+                <element signature="e#4795#4973#0" expanded="false" />
+                <marker date="1477390976336" expanded="false" signature="5015:13589" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -151,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xzs_data/crawl_comp/crawl_comp_master.py" />
-        <option value="$PROJECT_DIR$/xzs_data/crawl_comp/crawl_comp_sliver.py" />
         <option value="$PROJECT_DIR$/xzs_data/crawl_comp/config.py" />
         <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan.txt" />
         <option value="$PROJECT_DIR$/xzs_data/datamigration/test/dengjijiguan_shengshi/dengjijiguan2sql.py" />
@@ -199,17 +182,19 @@
         <option value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" />
         <option value="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_post.py" />
-        <option value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py" />
-        <option value="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" />
         <option value="$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py" />
+        <option value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py" />
+        <option value="$PROJECT_DIR$/xzs_data/comp_info_demo.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" />
+        <option value="$PROJECT_DIR$/xzs_data/datamigration/mo2my/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -386,24 +371,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="xinyonggongshi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -426,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chongqing" />
+              <option name="myItemId" value="jiangsu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,28 +412,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="datamigration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xzs_data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datamigration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my2my" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,41 +475,7 @@
       <recent name="E:\git\demo\xzs_data\datamigration\test\dengjijiguan_shengshi" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_post">
-    <configuration default="false" name="jiangsu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="jiangsu_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.test">
     <configuration default="false" name="jiangsu_down_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -599,19 +510,53 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test_search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="compinfo_mo_my" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/mo2my" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="demo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzscredit/xinyonggongshi/shanghai/test/test_search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="comp_info_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/comp_info_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xzs_data/datamigration/mo2my" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="demo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xzs_data/datamigration/mo2my/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -751,19 +696,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.jiangsu" />
-      <item index="1" class="java.lang.String" itemvalue="Python.jiangsu_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.jiangsu_down_all" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test_post" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_search" />
+      <item index="0" class="java.lang.String" itemvalue="Python.jiangsu_down_all" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_post" />
+      <item index="2" class="java.lang.String" itemvalue="Python.compinfo_mo_my" />
+      <item index="3" class="java.lang.String" itemvalue="Python.comp_info_demo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.jiangsu_down_all" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_post" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_search" />
-        <item index="3" class="java.lang.String" itemvalue="Python.jiangsu" />
-        <item index="4" class="java.lang.String" itemvalue="Python.jiangsu_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.compinfo_mo_my" />
+        <item index="2" class="java.lang.String" itemvalue="Python.comp_info_demo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.jiangsu_down_all" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_post" />
       </list>
     </recent_temporary>
   </component>
@@ -1023,10 +968,17 @@
       <option name="project" value="LOCAL" />
       <updated>1476182140446</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="chongqing&amp;jiangsu">
+      <created>1477299274001</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1477299274001</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -1036,21 +988,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124200426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4041451" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41417912" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41364604" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36739132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3116883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48051947" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1098,49 +1050,19 @@
     <MESSAGE value="10.1-《" />
     <MESSAGE value="迁移工具" />
     <MESSAGE value="name-&gt;sheng\shi" />
-    <option name="LAST_COMMIT_MESSAGE" value="name-&gt;sheng\shi" />
+    <MESSAGE value="chongqing&amp;jiangsu" />
+    <option name="LAST_COMMIT_MESSAGE" value="chongqing&amp;jiangsu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzscredit/zhixingren/baidu_zhixingren.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/PSpider-master/pylint.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2133">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/https_demo/https_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/pymongo_demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzscredit/xinyong/xinyonghenan/xintyshxydm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1435,14 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1809">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xinyonggongshi/chongqing/chongqing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1557,31 +1471,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/test_insert_time_date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/jiangsu_down_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="e#38#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py">
+    <entry file="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-287100998/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="69">
+          <caret line="309" column="4" selection-start-line="309" selection-start-column="4" selection-end-line="309" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/xinyonggongshi/jiangsu/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/comp_info_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="161" column="19" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="19" />
           <folding>
-            <element signature="e#38#52#0" expanded="true" />
+            <element signature="e#1045#1227#0" expanded="false" />
+            <element signature="e#1055#1221#0" expanded="false" />
+            <element signature="e#1411#1472#0" expanded="false" />
+            <element signature="e#1421#1464#0" expanded="false" />
+            <element signature="e#1506#1773#0" expanded="false" />
+            <element signature="e#1512#1766#0" expanded="false" />
+            <element signature="e#1807#2159#0" expanded="false" />
+            <element signature="e#2193#2417#0" expanded="false" />
+            <element signature="e#2450#2612#0" expanded="false" />
+            <element signature="e#4702#5135#0" expanded="false" />
+            <element signature="e#5176#5412#0" expanded="false" />
+            <element signature="e#5454#5730#0" expanded="false" />
+            <element signature="e#5772#5946#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/my2my/t_gongsi.py">
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="402">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzs_data/datamigration/mo2my/compinfo_mo_my.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+          <folding>
+            <element signature="e#38#52#0" expanded="true" />
+            <element signature="e#4508#4512#0" expanded="false" />
+            <element signature="e#4561#4759#0" expanded="false" />
+            <element signature="e#4795#4973#0" expanded="false" />
+            <marker date="1477390976336" expanded="false" signature="5015:13589" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

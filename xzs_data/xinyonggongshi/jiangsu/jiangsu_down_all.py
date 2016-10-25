@@ -6,6 +6,7 @@ import pymongo
 import MySQLdb
 from xzs_data.xinyonggongshi.jiangsu.jiangsu import JiangSuAnalyze
 import threading
+import time
 
 
 DbConfig = {
@@ -62,13 +63,13 @@ if __name__ == "__main__":
     cursor_sour = conn_sour.cursor()
     select_sql = 'select t_gongsi_mingzi from t_gongsi where t_gongsi_id >= %s and t_gongsi_id < %s and t_gongsi_sheng="江苏省";'
 
-    startnum = 5510500
-    maxnum = 10000000
+    startnum = 2502000
+    maxnum = 5000000
     step = 500
     # model = svm_load_model("jiangsu.mo")
 
     while 1:
-        print "start: ", startnum
+        print "start: ", startnum, time.ctime()
         if startnum >= maxnum:
             print "全部完成"
             break
